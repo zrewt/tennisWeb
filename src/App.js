@@ -10,33 +10,56 @@ function App() {
   const generateDrills = (formData) => {
     const { skillLevel, equipment, timeAvailable } = formData;
     
+    // Define time ranges for each selected time
+    const timeRanges = {
+      15: { min: 10, max: 20 },
+      30: { min: 25, max: 35 },
+      60: { min: 50, max: 70 }
+    };
+    
+    const timeRange = timeRanges[timeAvailable];
+    
     // Filter drills based on user selections
     const filteredDrills = allDrills.filter(drill => {
       const matchesSkill = drill.skillLevel.includes(skillLevel);
       const matchesEquipment = drill.equipment.includes(equipment);
-      const matchesTime = drill.timeRequired <= timeAvailable;
+      const matchesTime = drill.timeRequired <= timeRange.max;
       return matchesSkill && matchesEquipment && matchesTime;
     });
 
     // Shuffle the filtered drills
     const shuffled = filteredDrills.sort(() => 0.5 - Math.random());
     
-    // Select drills to fill the available time optimally
+    // Select drills to fill the available time optimally within the range
     const selectedDrills = [];
-    let remainingTime = timeAvailable;
+    let totalTime = 0;
     
     // Keep adding drills while we have time and available drills
     for (let i = 0; i < shuffled.length && selectedDrills.length < 8; i++) {
       const drill = shuffled[i];
       
-      // Add drill if it fits in remaining time
-      if (drill.timeRequired <= remainingTime) {
+      // Check if adding this drill would keep us within the time range
+      if (totalTime + drill.timeRequired <= timeRange.max) {
         selectedDrills.push(drill);
-        remainingTime -= drill.timeRequired;
+        totalTime += drill.timeRequired;
       }
     }
     
-    // Ensure we have at least 2 drills if possible
+    // Ensure we meet the minimum time requirement
+    if (totalTime < timeRange.min && shuffled.length > 0) {
+      // Try to add more drills to reach minimum time
+      for (let i = 0; i < shuffled.length; i++) {
+        const drill = shuffled[i];
+        if (!selectedDrills.find(d => d.id === drill.id) && 
+            totalTime + drill.timeRequired <= timeRange.max) {
+          selectedDrills.push(drill);
+          totalTime += drill.timeRequired;
+          if (totalTime >= timeRange.min) break;
+        }
+      }
+    }
+    
+    // If we still don't have enough drills, add the shortest available drills
     if (selectedDrills.length < 2 && shuffled.length >= 2) {
       const shortestDrills = shuffled
         .sort((a, b) => a.timeRequired - b.timeRequired)
@@ -56,7 +79,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>🎾 Tennis Drill Generator</h1>
+        <h1>🎾 TempoDrill</h1>
         <p>Create your personalized practice plan</p>
       </header>
       
