@@ -486,6 +486,556 @@ const allDrills = [
     skillLevel: ["intermediate", "advanced"],
     equipment: ["partner"],
     icon: "🎾"
+  },
+
+  // ADDITIONAL BEGINNER DRILLS
+  {
+    id: 46,
+    title: "Grip Practice",
+    description: "Practice switching between different grips for forehand and backhand.",
+    timeRequired: 15,
+    skillLevel: ["beginner"],
+    equipment: ["none"],
+    icon: "✋"
+  },
+  {
+    id: 47,
+    title: "Ball Bounce Practice",
+    description: "Practice bouncing the ball on your racquet to improve hand-eye coordination.",
+    timeRequired: 10,
+    skillLevel: ["beginner"],
+    equipment: ["none"],
+    icon: "🎾"
+  },
+  {
+    id: 48,
+    title: "Basic Movement Patterns",
+    description: "Practice basic movement patterns like side-stepping and forward/backward movement.",
+    timeRequired: 15,
+    skillLevel: ["beginner"],
+    equipment: ["none"],
+    icon: "👟"
+  },
+  {
+    id: 49,
+    title: "Partner Rally Counting",
+    description: "Practice rallies with a partner, counting consecutive hits.",
+    timeRequired: 20,
+    skillLevel: ["beginner"],
+    equipment: ["partner"],
+    icon: "🔢"
+  },
+  {
+    id: 50,
+    title: "Wall Target Practice",
+    description: "Practice hitting specific targets on the wall to improve accuracy.",
+    timeRequired: 15,
+    skillLevel: ["beginner", "intermediate"],
+    equipment: ["wall"],
+    icon: "🎯"
+  },
+  {
+    id: 51,
+    title: "Basic Overhead Practice",
+    description: "Practice basic overhead shots with a partner.",
+    timeRequired: 15,
+    skillLevel: ["beginner", "intermediate"],
+    equipment: ["partner"],
+    icon: "💥"
+  },
+  {
+    id: 52,
+    title: "Court Positioning",
+    description: "Learn and practice proper court positioning for different situations.",
+    timeRequired: 20,
+    skillLevel: ["beginner"],
+    equipment: ["none"],
+    icon: "📍"
+  },
+  {
+    id: 53,
+    title: "Basic Slice Practice",
+    description: "Practice basic slice shots for both forehand and backhand.",
+    timeRequired: 15,
+    skillLevel: ["beginner", "intermediate"],
+    equipment: ["partner", "wall"],
+    icon: "🔪"
+  },
+  {
+    id: 54,
+    title: "Ball Toss Variations",
+    description: "Practice different ball toss heights and positions for serves.",
+    timeRequired: 10,
+    skillLevel: ["beginner"],
+    equipment: ["none"],
+    icon: "⬆️"
+  },
+  {
+    id: 55,
+    title: "Basic Lob Practice",
+    description: "Practice basic lob shots with a partner.",
+    timeRequired: 15,
+    skillLevel: ["beginner", "intermediate"],
+    equipment: ["partner"],
+    icon: "🪶"
+  },
+
+  // ADDITIONAL INTERMEDIATE DRILLS
+  {
+    id: 56,
+    title: "Inside-Out Forehand",
+    description: "Practice inside-out forehand shots from the backhand side.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner", "ball machine"],
+    icon: "🎾"
+  },
+  {
+    id: 57,
+    title: "Backhand Down the Line",
+    description: "Practice hitting backhand shots down the line with precision.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner", "ball machine"],
+    icon: "📐"
+  },
+  {
+    id: 58,
+    title: "Cross-Court Backhand",
+    description: "Practice cross-court backhand shots with a partner.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "🔄"
+  },
+  {
+    id: 59,
+    title: "Approach Shot and Volley",
+    description: "Practice approach shots followed by volleys at the net.",
+    timeRequired: 25,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner", "ball machine"],
+    icon: "🎯"
+  },
+  {
+    id: 60,
+    title: "Defensive Lob Practice",
+    description: "Practice defensive lobs when under pressure.",
+    timeRequired: 15,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner", "ball machine"],
+    icon: "🛡️"
+  },
+  {
+    id: 61,
+    title: "Ball Machine Consistency",
+    description: "Use ball machine to practice consistent depth and placement.",
+    timeRequired: 25,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["ball machine"],
+    icon: "📏"
+  },
+  {
+    id: 62,
+    title: "Wall Rally Variations",
+    description: "Practice different shot combinations against the wall.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["wall"],
+    icon: "🏓"
+  },
+  {
+    id: 63,
+    title: "Serve Placement Practice",
+    description: "Practice serving to different areas of the service box.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["none", "partner"],
+    icon: "🎯"
+  },
+  {
+    id: 64,
+    title: "Return of Serve Practice",
+    description: "Practice returning different types of serves.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "🎾"
+  },
+  {
+    id: 65,
+    title: "Volley to Volley",
+    description: "Practice volley exchanges at the net with a partner.",
+    timeRequired: 15,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "⚡"
+  },
+  {
+    id: 66,
+    title: "Drop Shot and Lob",
+    description: "Practice drop shots followed by defensive lobs.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "🪶"
+  },
+  {
+    id: 67,
+    title: "Ball Machine Footwork",
+    description: "Use ball machine to practice footwork and movement patterns.",
+    timeRequired: 25,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["ball machine"],
+    icon: "🏃"
+  },
+  {
+    id: 68,
+    title: "Wall Serve and Volley",
+    description: "Practice serve and volley combinations against the wall.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["wall"],
+    icon: "🎯"
+  },
+  {
+    id: 69,
+    title: "Cross-Court Consistency",
+    description: "Practice maintaining cross-court rallies with consistent depth.",
+    timeRequired: 25,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "🔄"
+  },
+  {
+    id: 70,
+    title: "Approach Shot Placement",
+    description: "Practice hitting approach shots to specific target areas.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner", "ball machine"],
+    icon: "🎯"
+  },
+
+  // ADDITIONAL ADVANCED DRILLS
+  {
+    id: 71,
+    title: "Advanced Spin Variations",
+    description: "Practice heavy topspin, slice, and flat shots with precision.",
+    timeRequired: 25,
+    skillLevel: ["advanced"],
+    equipment: ["partner", "ball machine"],
+    icon: "🌀"
+  },
+  {
+    id: 72,
+    title: "Kick Serve Practice",
+    description: "Practice kick serves with proper technique and placement.",
+    timeRequired: 20,
+    skillLevel: ["advanced"],
+    equipment: ["none", "partner"],
+    icon: "🎯"
+  },
+  {
+    id: 73,
+    title: "Slice Serve Practice",
+    description: "Practice slice serves with proper technique and placement.",
+    timeRequired: 20,
+    skillLevel: ["advanced"],
+    equipment: ["none", "partner"],
+    icon: "🎯"
+  },
+  {
+    id: 74,
+    title: "Advanced Volley Combinations",
+    description: "Practice complex volley combinations and reactions.",
+    timeRequired: 20,
+    skillLevel: ["advanced"],
+    equipment: ["partner"],
+    icon: "⚡"
+  },
+  {
+    id: 75,
+    title: "Defensive Counter-Attack",
+    description: "Practice defensive shots that can turn into offensive opportunities.",
+    timeRequired: 25,
+    skillLevel: ["advanced"],
+    equipment: ["partner", "ball machine"],
+    icon: "🛡️"
+  },
+  {
+    id: 76,
+    title: "Advanced Footwork Patterns",
+    description: "Practice complex footwork patterns and movement combinations.",
+    timeRequired: 20,
+    skillLevel: ["advanced"],
+    equipment: ["none"],
+    icon: "🏃"
+  },
+  {
+    id: 77,
+    title: "Tactical Shot Selection",
+    description: "Practice choosing the right shot for different game situations.",
+    timeRequired: 30,
+    skillLevel: ["advanced"],
+    equipment: ["partner"],
+    icon: "🧠"
+  },
+  {
+    id: 78,
+    title: "Advanced Ball Machine Workout",
+    description: "Complex ball machine session with varying speeds, spins, and placements.",
+    timeRequired: 30,
+    skillLevel: ["advanced"],
+    equipment: ["ball machine"],
+    icon: "🤖"
+  },
+  {
+    id: 79,
+    title: "Match Point Scenarios",
+    description: "Practice specific match point situations and pressure handling.",
+    timeRequired: 25,
+    skillLevel: ["advanced"],
+    equipment: ["partner"],
+    icon: "🏆"
+  },
+  {
+    id: 80,
+    title: "Advanced Wall Combinations",
+    description: "Practice complex shot combinations against the wall.",
+    timeRequired: 25,
+    skillLevel: ["advanced"],
+    equipment: ["wall"],
+    icon: "🏓"
+  },
+  {
+    id: 81,
+    title: "Mental Toughness Drill",
+    description: "Practice maintaining focus and composure under pressure.",
+    timeRequired: 30,
+    skillLevel: ["advanced"],
+    equipment: ["partner"],
+    icon: "🧠"
+  },
+  {
+    id: 82,
+    title: "Advanced Overhead Practice",
+    description: "Practice overhead smashes with proper technique and placement.",
+    timeRequired: 20,
+    skillLevel: ["advanced"],
+    equipment: ["partner"],
+    icon: "💥"
+  },
+  {
+    id: 83,
+    title: "Advanced Lob Practice",
+    description: "Practice offensive and defensive lobs with precision.",
+    timeRequired: 20,
+    skillLevel: ["advanced"],
+    equipment: ["partner"],
+    icon: "🪶"
+  },
+  {
+    id: 84,
+    title: "Advanced Drop Shot Practice",
+    description: "Practice drop shots with different spins and placements.",
+    timeRequired: 20,
+    skillLevel: ["advanced"],
+    equipment: ["partner"],
+    icon: "🪶"
+  },
+  {
+    id: 85,
+    title: "Advanced Return Practice",
+    description: "Practice returning different types of serves with offensive intent.",
+    timeRequired: 25,
+    skillLevel: ["advanced"],
+    equipment: ["partner"],
+    icon: "🎾"
+  },
+
+  // ADDITIONAL SHORT DRILLS (10-15 minutes)
+  {
+    id: 86,
+    title: "Quick Grip Switch",
+    description: "Practice switching between grips quickly and efficiently.",
+    timeRequired: 10,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "✋"
+  },
+  {
+    id: 87,
+    title: "Quick Ball Bounce",
+    description: "Quick ball bouncing practice for hand-eye coordination.",
+    timeRequired: 10,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "🎾"
+  },
+  {
+    id: 88,
+    title: "Quick Movement Drill",
+    description: "Quick footwork and movement practice session.",
+    timeRequired: 10,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "🏃"
+  },
+  {
+    id: 89,
+    title: "Quick Wall Practice",
+    description: "Quick wall practice session focusing on one shot type.",
+    timeRequired: 10,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["wall"],
+    icon: "🏓"
+  },
+  {
+    id: 90,
+    title: "Quick Partner Rally",
+    description: "Quick rally practice session with a partner.",
+    timeRequired: 15,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "🔄"
+  },
+  {
+    id: 91,
+    title: "Quick Serve Practice",
+    description: "Quick serve practice focusing on one aspect.",
+    timeRequired: 10,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none", "partner"],
+    icon: "🎯"
+  },
+  {
+    id: 92,
+    title: "Quick Volley Session",
+    description: "Quick volley practice session at the net.",
+    timeRequired: 10,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "⚡"
+  },
+  {
+    id: 93,
+    title: "Quick Overhead Practice",
+    description: "Quick overhead practice session.",
+    timeRequired: 10,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "💥"
+  },
+  {
+    id: 94,
+    title: "Quick Ball Machine",
+    description: "Quick ball machine session focusing on consistency.",
+    timeRequired: 15,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["ball machine"],
+    icon: "🤖"
+  },
+  {
+    id: 95,
+    title: "Quick Slice Practice",
+    description: "Quick slice practice session for both forehand and backhand.",
+    timeRequired: 10,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner", "wall"],
+    icon: "🔪"
+  },
+
+  // ADDITIONAL LONG DRILLS (40-60 minutes)
+  {
+    id: 96,
+    title: "Complete Tennis Workout",
+    description: "Comprehensive tennis workout covering all skills and techniques.",
+    timeRequired: 60,
+    skillLevel: ["advanced"],
+    equipment: ["partner", "ball machine"],
+    icon: "💪"
+  },
+  {
+    id: 97,
+    title: "Extended Match Simulation",
+    description: "Extended match simulation with full scoring and pressure situations.",
+    timeRequired: 55,
+    skillLevel: ["advanced"],
+    equipment: ["partner"],
+    icon: "🏆"
+  },
+  {
+    id: 98,
+    title: "Full Court Ball Machine",
+    description: "Extended ball machine session covering all areas of the court.",
+    timeRequired: 45,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["ball machine"],
+    icon: "🤖"
+  },
+  {
+    id: 99,
+    title: "Comprehensive Partner Practice",
+    description: "Extended partner practice covering all tennis skills.",
+    timeRequired: 50,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "🎾"
+  },
+  {
+    id: 100,
+    title: "Advanced Skills Workshop",
+    description: "Extended practice session focusing on advanced tennis skills.",
+    timeRequired: 60,
+    skillLevel: ["advanced"],
+    equipment: ["partner", "ball machine"],
+    icon: "🎓"
+  },
+  {
+    id: 101,
+    title: "Tactical Match Play",
+    description: "Extended match play focusing on tactical decision making.",
+    timeRequired: 50,
+    skillLevel: ["advanced"],
+    equipment: ["partner"],
+    icon: "🧠"
+  },
+  {
+    id: 102,
+    title: "Complete Wall Practice",
+    description: "Extended wall practice session covering all shot types.",
+    timeRequired: 40,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["wall"],
+    icon: "🏓"
+  },
+  {
+    id: 103,
+    title: "Advanced Movement Training",
+    description: "Extended footwork and movement training session.",
+    timeRequired: 45,
+    skillLevel: ["advanced"],
+    equipment: ["none"],
+    icon: "🏃"
+  },
+  {
+    id: 104,
+    title: "Comprehensive Serve Practice",
+    description: "Extended serve practice covering all serve types and placements.",
+    timeRequired: 40,
+    skillLevel: ["advanced"],
+    equipment: ["none", "partner"],
+    icon: "🎯"
+  },
+  {
+    id: 105,
+    title: "Advanced Volley Mastery",
+    description: "Extended volley practice session focusing on advanced techniques.",
+    timeRequired: 35,
+    skillLevel: ["advanced"],
+    equipment: ["partner"],
+    icon: "⚡"
   }
 ];
 
