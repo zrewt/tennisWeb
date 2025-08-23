@@ -842,482 +842,242 @@ export const allDrills = [
   },
   {
     id: 36,
-    title: "Tennis Ball Juggling",
-    description: "Improve hand-eye coordination and ball control with tennis ball juggling exercises.",
-    timeRequired: 15,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["tennis balls"],
-    icon: "🤹",
+    title: "Inside-Out Forehand Practice",
+    description: "Practice hitting inside-out forehands to improve court positioning and shot selection.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "🔄",
     instructions: [
-      "Start with one ball, bouncing it with your racket",
-      "Practice keeping the ball in the air for as long as possible",
-      "Progress to two balls, alternating hands",
-      "Work on different heights and speeds",
-      "Practice juggling while moving around",
-      "Try juggling with your non-dominant hand"
+      "Position yourself to hit forehands from your backhand side",
+      "Practice running around your backhand to hit forehands",
+      "Focus on proper footwork and positioning",
+      "Work on hitting inside-out forehands cross-court",
+      "Practice recovery after hitting inside-out shots",
+      "Work on timing and shot selection"
     ],
     tips: [
-      "Keep your eye on the ball at all times",
-      "Start slow and gradually increase speed",
-      "Use your wrist for control, not just your arm",
-      "Practice in a safe area with plenty of space",
-      "Focus on consistency over speed initially"
+      "Use quick footwork to get in position",
+      "Keep your eye on the ball throughout",
+      "Transfer weight properly for power",
+      "Recover quickly to center position",
+      "Practice both cross-court and down-the-line"
     ]
   },
   {
     id: 37,
-    title: "Target Practice",
-    description: "Improve accuracy by hitting specific targets on the court.",
-    timeRequired: 20,
+    title: "Moonball Practice",
+    description: "Practice high, deep defensive shots to buy time and reset points.",
+    timeRequired: 15,
     skillLevel: ["intermediate", "advanced"],
-    equipment: ["targets", "partner"],
-    icon: "🎯",
+    equipment: ["partner"],
+    icon: "☁️",
     instructions: [
-      "Set up targets in different areas of the court",
-      "Practice hitting forehands to specific targets",
-      "Work on backhand accuracy to targets",
-      "Practice serving to target areas",
-      "Focus on hitting targets from different positions",
-      "Keep track of your success rate"
+      "Practice hitting high, deep shots from the baseline",
+      "Focus on getting the ball high over the net",
+      "Work on consistent depth and placement",
+      "Practice moonballs from defensive positions",
+      "Work on retrieving and returning moonballs",
+      "Practice moonball strategy and timing"
     ],
     tips: [
-      "Start with larger targets and gradually make them smaller",
-      "Focus on form and technique over power",
-      "Use proper footwork to get in position",
-      "Keep your eye on the target, not the ball",
-      "Practice both forehand and backhand equally"
+      "Use continental grip for better control",
+      "Keep your racket face open",
+      "Follow through high and long",
+      "Stay patient and wait for opportunities",
+      "Use moonballs to reset difficult points"
     ]
   },
   {
     id: 38,
-    title: "Speed and Agility Training",
-    description: "Improve your speed and agility with tennis-specific drills.",
+    title: "Short Ball Attack Practice",
+    description: "Practice attacking short balls and finishing points at the net.",
     timeRequired: 25,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["cones", "ladder"],
-    icon: "🏃‍♂️",
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "⚡",
     instructions: [
-      "Set up an agility ladder or cone course",
-      "Practice quick footwork patterns through the ladder",
-      "Work on lateral movement between cones",
-      "Practice forward and backward sprints",
-      "Add tennis movements like split-steps",
-      "Time yourself and try to improve"
+      "Practice recognizing and attacking short balls",
+      "Work on moving forward to attack short balls",
+      "Focus on proper approach shot technique",
+      "Practice finishing points at the net",
+      "Work on volley and overhead combinations",
+      "Practice recovery after attacking short balls"
     ],
     tips: [
-      "Stay on the balls of your feet",
-      "Keep your knees slightly bent",
-      "Use your arms for balance and momentum",
-      "Focus on quick, explosive movements",
-      "Warm up properly before starting"
+      "Stay alert for short ball opportunities",
+      "Move forward aggressively when attacking",
+      "Use proper footwork to get in position",
+      "Stay balanced when hitting approach shots",
+      "Practice both forehand and backhand attacks"
     ]
   },
   {
     id: 39,
-    title: "Mental Visualization Practice",
-    description: "Improve your mental game through visualization and mental practice.",
-    timeRequired: 15,
+    title: "Cross-Court to Down-the-Line Practice",
+    description: "Practice changing direction from cross-court to down-the-line shots.",
+    timeRequired: 20,
     skillLevel: ["intermediate", "advanced"],
-    equipment: ["none"],
-    icon: "🧘",
+    equipment: ["partner"],
+    icon: "📐",
     instructions: [
-      "Find a quiet place to sit comfortably",
-      "Close your eyes and visualize successful tennis shots",
-      "Imagine yourself playing perfect points",
-      "Practice mental rehearsal of different scenarios",
-      "Visualize handling pressure situations",
-      "Focus on positive outcomes and confidence"
+      "Start with cross-court rallies",
+      "Practice changing direction to down-the-line",
+      "Focus on proper footwork and positioning",
+      "Work on disguise and shot selection",
+      "Practice both forehand and backhand direction changes",
+      "Work on recovery after direction changes"
     ],
     tips: [
-      "Practice visualization regularly",
-      "Include all your senses in the visualization",
-      "Focus on the process, not just the outcome",
-      "Use positive self-talk during visualization",
-      "Combine mental practice with physical practice"
+      "Disguise your direction change intention",
+      "Use proper footwork to get in position",
+      "Keep your eye on the ball through contact",
+      "Recover quickly after changing direction",
+      "Practice both sides equally"
     ]
   },
   {
     id: 40,
-    title: "Cross-Training Workout",
-    description: "Improve overall fitness with tennis-specific cross-training exercises.",
-    timeRequired: 30,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["weights", "resistance bands"],
-    icon: "💪",
+    title: "Defensive Lob Practice",
+    description: "Practice defensive lobs to escape difficult situations and buy time.",
+    timeRequired: 15,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "🛡️",
     instructions: [
-      "Start with dynamic stretching and warm-up",
-      "Practice tennis-specific strength exercises",
-      "Work on core strength and stability",
-      "Practice plyometric exercises for power",
-      "Include cardiovascular conditioning",
-      "End with cool-down and stretching"
+      "Practice hitting defensive lobs from difficult positions",
+      "Work on getting the ball high and deep",
+      "Focus on consistent height and placement",
+      "Practice lobs from different court positions",
+      "Work on recovery after hitting defensive lobs",
+      "Practice lob strategy and timing"
     ],
     tips: [
-      "Focus on tennis-specific movements",
-      "Build strength gradually over time",
-      "Include rest days in your routine",
-      "Stay hydrated throughout your workout",
-      "Listen to your body and avoid overtraining"
+      "Use continental grip for better control",
+      "Keep your racket face open",
+      "Follow through high and long",
+      "Stay calm under pressure",
+      "Use lobs to buy time and reset points"
     ]
   },
   {
     id: 41,
-    title: "Recovery and Flexibility",
-    description: "Improve flexibility and recovery with stretching and mobility exercises.",
-    timeRequired: 20,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["yoga mat"],
-    icon: "🧘‍♀️",
-    instructions: [
-      "Start with gentle dynamic stretching",
-      "Practice tennis-specific flexibility exercises",
-      "Work on hip and shoulder mobility",
-      "Practice deep breathing and relaxation",
-      "Include static stretching for major muscle groups",
-      "Focus on areas that get tight from tennis"
-    ],
-    tips: [
-      "Hold stretches for 20-30 seconds",
-      "Don't bounce during static stretches",
-      "Breathe deeply and relax into stretches",
-      "Focus on areas that feel tight",
-      "Practice regularly for best results"
-    ]
-  },
-  {
-    id: 42,
-    title: "Tennis-Specific Nutrition",
-    description: "Learn about proper nutrition for tennis performance and recovery.",
-    timeRequired: 10,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["none"],
-    icon: "🍎",
-    instructions: [
-      "Learn about pre-match nutrition timing",
-      "Understand proper hydration during play",
-      "Practice post-match recovery nutrition",
-      "Plan meals around your tennis schedule",
-      "Learn about energy-boosting snacks",
-      "Understand the importance of protein for recovery"
-    ],
-    tips: [
-      "Eat a balanced meal 2-3 hours before playing",
-      "Stay hydrated throughout your session",
-      "Include protein and carbs in post-match meals",
-      "Listen to your body's hunger and thirst signals",
-      "Plan ahead for tournament days"
-    ]
-  },
-  {
-    id: 43,
-    title: "Equipment Maintenance",
-    description: "Learn how to properly maintain your tennis equipment for optimal performance.",
+    title: "Quick Start Practice",
+    description: "Practice quick start movements and explosive first steps.",
     timeRequired: 15,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["tennis racket", "strings", "grip"],
-    icon: "🔧",
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "🏃‍♂️",
     instructions: [
-      "Learn how to check your racket strings",
-      "Practice proper grip replacement",
-      "Understand when to restring your racket",
-      "Learn about racket tension and its effects",
-      "Practice proper racket storage and care",
-      "Understand equipment selection for your level"
+      "Practice explosive first steps in all directions",
+      "Work on quick direction changes",
+      "Focus on split-step timing",
+      "Practice quick reactions to different shots",
+      "Work on acceleration and deceleration",
+      "Practice quick start footwork patterns"
     ],
     tips: [
-      "Check your strings regularly for wear",
-      "Replace your grip when it becomes slippery",
-      "Store your racket in a protective case",
-      "Consider your playing style when choosing equipment",
-      "Consult with a tennis pro for equipment advice"
-    ]
-  },
-  {
-    id: 44,
-    title: "Tennis Rules and Etiquette",
-    description: "Learn and practice proper tennis rules, scoring, and etiquette.",
-    timeRequired: 15,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["none"],
-    icon: "📚",
-    instructions: [
-      "Review basic tennis rules and scoring",
-      "Practice proper court etiquette",
-      "Learn about line calls and sportsmanship",
-      "Understand doubles rules and positioning",
-      "Practice proper warm-up and cool-down etiquette",
-      "Learn about tournament rules and procedures"
-    ],
-    tips: [
-      "Always call lines honestly and fairly",
-      "Show good sportsmanship to your opponent",
-      "Follow proper court etiquette",
-      "Learn the rules thoroughly",
-      "Practice good communication with partners"
-    ]
-  },
-  {
-    id: 45,
-    title: "Tennis History and Culture",
-    description: "Learn about tennis history, famous players, and tennis culture.",
-    timeRequired: 10,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["none"],
-    icon: "🏛️",
-    instructions: [
-      "Learn about the history of tennis",
-      "Study famous players and their techniques",
-      "Watch classic tennis matches",
-      "Learn about different tennis tournaments",
-      "Understand tennis culture and traditions",
-      "Study the evolution of tennis equipment"
-    ],
-    tips: [
-      "Watch matches from different eras",
-      "Learn from the techniques of great players",
-      "Understand the traditions of tennis",
-      "Appreciate the history of the sport",
-      "Use historical knowledge to improve your game"
-    ]
-  },
-  {
-    id: 46,
-    title: "Dynamic Stretching Warm-Up",
-    description: "Comprehensive dynamic stretching routine to prepare your muscles for tennis.",
-    timeRequired: 15,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["none"],
-    icon: "🤸",
-    instructions: [
-      "Start with arm circles - 10 forward, 10 backward",
-      "Practice leg swings - front to back and side to side",
-      "Do walking knee hugs - 10 each leg",
-      "Practice walking heel kicks - 10 each leg",
-      "Do walking lunges with arm rotations",
-      "Finish with gentle jogging in place"
-    ],
-    tips: [
-      "Move slowly and controlled through each stretch",
-      "Don't bounce or force any movements",
-      "Focus on warming up major muscle groups",
-      "Breathe deeply throughout the routine",
-      "Listen to your body and adjust intensity"
-    ]
-  },
-  {
-    id: 47,
-    title: "Tennis-Specific Movement Warm-Up",
-    description: "Warm-up routine focusing on tennis-specific movements and footwork patterns.",
-    timeRequired: 12,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["none"],
-    icon: "🏃",
-    instructions: [
-      "Start with light jogging around the court",
-      "Practice side-to-side shuffling movements",
-      "Do forward and backward running drills",
-      "Practice split-steps and quick direction changes",
-      "Work on lateral movement patterns",
-      "Finish with gentle sprints across the court"
-    ],
-    tips: [
-      "Start slow and gradually increase intensity",
-      "Focus on proper footwork technique",
       "Stay on the balls of your feet",
+      "Use split-steps before moving",
+      "Explode in the direction of the ball",
       "Keep your knees slightly bent",
       "Practice both directions equally"
     ]
   },
   {
-    id: 48,
-    title: "Racket Warm-Up Routine",
-    description: "Warm-up exercises using your tennis racket to prepare for play.",
-    timeRequired: 10,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["tennis racket"],
-    icon: "🎾",
+    id: 42,
+    title: "Touch Shot Practice",
+    description: "Practice delicate touch shots and finesse play at the net.",
+    timeRequired: 15,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "👆",
     instructions: [
-      "Practice shadow strokes without a ball",
-      "Do gentle racket swings in all directions",
-      "Practice your serve motion slowly",
-      "Work on volley movements at the net",
-      "Practice footwork with racket in hand",
-      "Do gentle stretching while holding your racket"
+      "Practice soft volleys and touch shots",
+      "Work on drop volleys and angled volleys",
+      "Focus on soft hands and gentle contact",
+      "Practice touch shots from different positions",
+      "Work on disguise and placement",
+      "Practice touch shot combinations"
     ],
     tips: [
-      "Focus on proper form and technique",
-      "Start with slow, controlled movements",
-      "Gradually increase the speed of movements",
-      "Practice both forehand and backhand motions",
-      "Use this time to check your grip"
+      "Use continental grip for better touch",
+      "Keep your wrist firm but relaxed",
+      "Use soft hands and gentle contact",
+      "Disguise your touch shot intention",
+      "Practice from different court positions"
     ]
   },
   {
-    id: 49,
-    title: "Cardiovascular Warm-Up",
-    description: "Light cardiovascular exercises to get your heart rate up before tennis.",
-    timeRequired: 8,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["none"],
-    icon: "❤️",
+    id: 43,
+    title: "Pressure Point Practice",
+    description: "Practice playing pressure points and handling match situations.",
+    timeRequired: 30,
+    skillLevel: ["advanced"],
+    equipment: ["partner"],
+    icon: "🎯",
     instructions: [
-      "Start with 2-3 minutes of light jogging",
-      "Practice high knees for 30 seconds",
-      "Do jumping jacks for 30 seconds",
-      "Practice butt kicks for 30 seconds",
-      "Do mountain climbers for 30 seconds",
-      "Finish with 1-2 minutes of easy jogging"
+      "Play practice points with specific pressure situations",
+      "Practice serving and returning under pressure",
+      "Work on handling break points and set points",
+      "Focus on mental toughness and focus",
+      "Practice different pressure scenarios",
+      "Work on staying calm under pressure"
     ],
     tips: [
-      "Start at a comfortable pace",
-      "Gradually increase intensity",
-      "Focus on getting your heart rate up slowly",
-      "Stay hydrated throughout",
-      "Don't push too hard - this is just warm-up"
+      "Stay focused on one point at a time",
+      "Use positive self-talk under pressure",
+      "Control your breathing during pressure",
+      "Focus on what you can control",
+      "Learn from pressure situations"
     ]
   },
   {
-    id: 50,
-    title: "Upper Body Tennis Warm-Up",
-    description: "Specific warm-up exercises for shoulders, arms, and upper body used in tennis.",
-    timeRequired: 10,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["none"],
-    icon: "💪",
+    id: 44,
+    title: "Court Positioning Practice",
+    description: "Practice proper court positioning and movement patterns.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "📍",
     instructions: [
-      "Do shoulder rolls - 10 forward, 10 backward",
-      "Practice arm circles - small to large",
-      "Do shoulder blade squeezes - 10 reps",
-      "Practice gentle wrist and forearm stretches",
-      "Do chest opening stretches",
-      "Finish with gentle shoulder stretches"
+      "Practice proper positioning for different shots",
+      "Work on recovery to center position",
+      "Focus on efficient movement patterns",
+      "Practice positioning for different game styles",
+      "Work on court coverage and positioning",
+      "Practice positioning for doubles play"
     ],
     tips: [
-      "Focus on warming up shoulder joints",
-      "Pay attention to any tightness or discomfort",
-      "Move slowly and controlled",
-      "Breathe deeply during stretches",
-      "Don't force any movements"
+      "Stay in ready position between shots",
+      "Recover to center after each shot",
+      "Use efficient movement patterns",
+      "Stay alert and ready to move",
+      "Practice both singles and doubles positioning"
     ]
   },
   {
-    id: 51,
-    title: "Lower Body Tennis Warm-Up",
-    description: "Warm-up exercises specifically for legs, hips, and lower body used in tennis.",
-    timeRequired: 12,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["none"],
-    icon: "🦵",
-    instructions: [
-      "Do ankle circles - 10 each direction",
-      "Practice knee bends and squats",
-      "Do hip circles and hip openers",
-      "Practice calf raises and stretches",
-      "Do gentle lunges with rotation",
-      "Finish with leg swings and kicks"
-    ],
-    tips: [
-      "Focus on warming up hip flexors",
-      "Pay attention to knee and ankle mobility",
-      "Start with gentle movements",
-      "Gradually increase range of motion",
-      "Stop if you feel any pain or discomfort"
-    ]
-  },
-  {
-    id: 52,
-    title: "Core Activation Warm-Up",
-    description: "Warm-up exercises to activate and prepare your core muscles for tennis.",
-    timeRequired: 8,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["none"],
-    icon: "🔥",
-    instructions: [
-      "Do gentle pelvic tilts - 10 reps",
-      "Practice cat-cow stretches",
-      "Do gentle core twists",
-      "Practice plank holds for 15-30 seconds",
-      "Do bird dog exercises - 10 each side",
-      "Finish with gentle core stretches"
-    ],
-    tips: [
-      "Focus on engaging your core muscles",
-      "Keep movements slow and controlled",
-      "Breathe deeply throughout",
-      "Don't hold your breath",
-      "Focus on quality over quantity"
-    ]
-  },
-  {
-    id: 53,
-    title: "Ball Toss Warm-Up",
-    description: "Warm-up routine using tennis ball tosses to prepare for serving and coordination.",
-    timeRequired: 6,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["tennis ball"],
-    icon: "⬆️",
-    instructions: [
-      "Practice ball tosses without hitting",
-      "Work on consistent toss height",
-      "Practice tossing to different positions",
-      "Do toss and catch exercises",
-      "Practice tossing while moving",
-      "Work on toss rhythm and timing"
-    ],
-    tips: [
-      "Focus on consistent toss placement",
-      "Keep your tossing arm straight",
-      "Don't spin the ball during toss",
-      "Practice in front of a mirror",
-      "Use this time to perfect your toss"
-    ]
-  },
-  {
-    id: 54,
-    title: "Mental Preparation Warm-Up",
-    description: "Mental warm-up exercises to prepare your mind for tennis play.",
-    timeRequired: 5,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["none"],
+    id: 45,
+    title: "Shot Selection Practice",
+    description: "Practice making smart shot selections based on court position and situation.",
+    timeRequired: 25,
+    skillLevel: ["advanced"],
+    equipment: ["partner"],
     icon: "🧠",
     instructions: [
-      "Take 5 deep breaths to center yourself",
-      "Visualize successful tennis shots",
-      "Set positive intentions for your session",
-      "Practice positive self-talk",
-      "Focus on being present and mindful",
-      "End with a confidence-building affirmation"
+      "Practice choosing the right shot for each situation",
+      "Work on shot selection based on court position",
+      "Focus on percentage tennis and smart play",
+      "Practice adapting shot selection to opponent",
+      "Work on shot selection under pressure",
+      "Practice different shot selection strategies"
     ],
     tips: [
-      "Find a quiet moment before playing",
-      "Focus on positive outcomes",
-      "Stay present and focused",
-      "Use this time to clear your mind",
-      "Practice gratitude for the opportunity to play"
-    ]
-  },
-  {
-    id: 55,
-    title: "Complete Pre-Match Warm-Up",
-    description: "Comprehensive warm-up routine to prepare for a tennis match or practice session.",
-    timeRequired: 20,
-    skillLevel: ["beginner", "intermediate", "advanced"],
-    equipment: ["tennis racket", "tennis balls"],
-    icon: "🎾",
-    instructions: [
-      "Start with 5 minutes of light cardio",
-      "Do 5 minutes of dynamic stretching",
-      "Practice 5 minutes of shadow strokes",
-      "Do 3 minutes of gentle ball hitting",
-      "Practice 2 minutes of serving motion",
-      "Finish with mental preparation and focus"
-    ],
-    tips: [
-      "Start your warm-up 20-30 minutes before play",
-      "Gradually increase intensity",
-      "Focus on proper form and technique",
-      "Stay hydrated throughout",
-      "Listen to your body and adjust as needed"
+      "Consider your court position when choosing shots",
+      "Play percentage tennis and avoid low-percentage shots",
+      "Adapt your shot selection to your opponent",
+      "Stay patient and wait for opportunities",
+      "Practice good shot selection habits"
     ]
   }
 ];
