@@ -1079,5 +1079,245 @@ export const allDrills = [
       "Appreciate the history of the sport",
       "Use historical knowledge to improve your game"
     ]
+  },
+  {
+    id: 46,
+    title: "Dynamic Stretching Warm-Up",
+    description: "Comprehensive dynamic stretching routine to prepare your muscles for tennis.",
+    timeRequired: 15,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "🤸",
+    instructions: [
+      "Start with arm circles - 10 forward, 10 backward",
+      "Practice leg swings - front to back and side to side",
+      "Do walking knee hugs - 10 each leg",
+      "Practice walking heel kicks - 10 each leg",
+      "Do walking lunges with arm rotations",
+      "Finish with gentle jogging in place"
+    ],
+    tips: [
+      "Move slowly and controlled through each stretch",
+      "Don't bounce or force any movements",
+      "Focus on warming up major muscle groups",
+      "Breathe deeply throughout the routine",
+      "Listen to your body and adjust intensity"
+    ]
+  },
+  {
+    id: 47,
+    title: "Tennis-Specific Movement Warm-Up",
+    description: "Warm-up routine focusing on tennis-specific movements and footwork patterns.",
+    timeRequired: 12,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "🏃",
+    instructions: [
+      "Start with light jogging around the court",
+      "Practice side-to-side shuffling movements",
+      "Do forward and backward running drills",
+      "Practice split-steps and quick direction changes",
+      "Work on lateral movement patterns",
+      "Finish with gentle sprints across the court"
+    ],
+    tips: [
+      "Start slow and gradually increase intensity",
+      "Focus on proper footwork technique",
+      "Stay on the balls of your feet",
+      "Keep your knees slightly bent",
+      "Practice both directions equally"
+    ]
+  },
+  {
+    id: 48,
+    title: "Racket Warm-Up Routine",
+    description: "Warm-up exercises using your tennis racket to prepare for play.",
+    timeRequired: 10,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["tennis racket"],
+    icon: "🎾",
+    instructions: [
+      "Practice shadow strokes without a ball",
+      "Do gentle racket swings in all directions",
+      "Practice your serve motion slowly",
+      "Work on volley movements at the net",
+      "Practice footwork with racket in hand",
+      "Do gentle stretching while holding your racket"
+    ],
+    tips: [
+      "Focus on proper form and technique",
+      "Start with slow, controlled movements",
+      "Gradually increase the speed of movements",
+      "Practice both forehand and backhand motions",
+      "Use this time to check your grip"
+    ]
+  },
+  {
+    id: 49,
+    title: "Cardiovascular Warm-Up",
+    description: "Light cardiovascular exercises to get your heart rate up before tennis.",
+    timeRequired: 8,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "❤️",
+    instructions: [
+      "Start with 2-3 minutes of light jogging",
+      "Practice high knees for 30 seconds",
+      "Do jumping jacks for 30 seconds",
+      "Practice butt kicks for 30 seconds",
+      "Do mountain climbers for 30 seconds",
+      "Finish with 1-2 minutes of easy jogging"
+    ],
+    tips: [
+      "Start at a comfortable pace",
+      "Gradually increase intensity",
+      "Focus on getting your heart rate up slowly",
+      "Stay hydrated throughout",
+      "Don't push too hard - this is just warm-up"
+    ]
+  },
+  {
+    id: 50,
+    title: "Upper Body Tennis Warm-Up",
+    description: "Specific warm-up exercises for shoulders, arms, and upper body used in tennis.",
+    timeRequired: 10,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "💪",
+    instructions: [
+      "Do shoulder rolls - 10 forward, 10 backward",
+      "Practice arm circles - small to large",
+      "Do shoulder blade squeezes - 10 reps",
+      "Practice gentle wrist and forearm stretches",
+      "Do chest opening stretches",
+      "Finish with gentle shoulder stretches"
+    ],
+    tips: [
+      "Focus on warming up shoulder joints",
+      "Pay attention to any tightness or discomfort",
+      "Move slowly and controlled",
+      "Breathe deeply during stretches",
+      "Don't force any movements"
+    ]
+  },
+  {
+    id: 51,
+    title: "Lower Body Tennis Warm-Up",
+    description: "Warm-up exercises specifically for legs, hips, and lower body used in tennis.",
+    timeRequired: 12,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "🦵",
+    instructions: [
+      "Do ankle circles - 10 each direction",
+      "Practice knee bends and squats",
+      "Do hip circles and hip openers",
+      "Practice calf raises and stretches",
+      "Do gentle lunges with rotation",
+      "Finish with leg swings and kicks"
+    ],
+    tips: [
+      "Focus on warming up hip flexors",
+      "Pay attention to knee and ankle mobility",
+      "Start with gentle movements",
+      "Gradually increase range of motion",
+      "Stop if you feel any pain or discomfort"
+    ]
+  },
+  {
+    id: 52,
+    title: "Core Activation Warm-Up",
+    description: "Warm-up exercises to activate and prepare your core muscles for tennis.",
+    timeRequired: 8,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "🔥",
+    instructions: [
+      "Do gentle pelvic tilts - 10 reps",
+      "Practice cat-cow stretches",
+      "Do gentle core twists",
+      "Practice plank holds for 15-30 seconds",
+      "Do bird dog exercises - 10 each side",
+      "Finish with gentle core stretches"
+    ],
+    tips: [
+      "Focus on engaging your core muscles",
+      "Keep movements slow and controlled",
+      "Breathe deeply throughout",
+      "Don't hold your breath",
+      "Focus on quality over quantity"
+    ]
+  },
+  {
+    id: 53,
+    title: "Ball Toss Warm-Up",
+    description: "Warm-up routine using tennis ball tosses to prepare for serving and coordination.",
+    timeRequired: 6,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["tennis ball"],
+    icon: "⬆️",
+    instructions: [
+      "Practice ball tosses without hitting",
+      "Work on consistent toss height",
+      "Practice tossing to different positions",
+      "Do toss and catch exercises",
+      "Practice tossing while moving",
+      "Work on toss rhythm and timing"
+    ],
+    tips: [
+      "Focus on consistent toss placement",
+      "Keep your tossing arm straight",
+      "Don't spin the ball during toss",
+      "Practice in front of a mirror",
+      "Use this time to perfect your toss"
+    ]
+  },
+  {
+    id: 54,
+    title: "Mental Preparation Warm-Up",
+    description: "Mental warm-up exercises to prepare your mind for tennis play.",
+    timeRequired: 5,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "🧠",
+    instructions: [
+      "Take 5 deep breaths to center yourself",
+      "Visualize successful tennis shots",
+      "Set positive intentions for your session",
+      "Practice positive self-talk",
+      "Focus on being present and mindful",
+      "End with a confidence-building affirmation"
+    ],
+    tips: [
+      "Find a quiet moment before playing",
+      "Focus on positive outcomes",
+      "Stay present and focused",
+      "Use this time to clear your mind",
+      "Practice gratitude for the opportunity to play"
+    ]
+  },
+  {
+    id: 55,
+    title: "Complete Pre-Match Warm-Up",
+    description: "Comprehensive warm-up routine to prepare for a tennis match or practice session.",
+    timeRequired: 20,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["tennis racket", "tennis balls"],
+    icon: "🎾",
+    instructions: [
+      "Start with 5 minutes of light cardio",
+      "Do 5 minutes of dynamic stretching",
+      "Practice 5 minutes of shadow strokes",
+      "Do 3 minutes of gentle ball hitting",
+      "Practice 2 minutes of serving motion",
+      "Finish with mental preparation and focus"
+    ],
+    tips: [
+      "Start your warm-up 20-30 minutes before play",
+      "Gradually increase intensity",
+      "Focus on proper form and technique",
+      "Stay hydrated throughout",
+      "Listen to your body and adjust as needed"
+    ]
   }
 ];
