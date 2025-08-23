@@ -2,7 +2,7 @@ import React from 'react';
 import DrillCard from './DrillCard';
 import './DrillList.css';
 
-const DrillList = ({ drills, onGenerateNew }) => {
+const DrillList = ({ drills, onGenerateNew, onDrillSelect }) => {
   const totalTime = drills.reduce((sum, drill) => sum + drill.timeRequired, 0);
 
   return (
@@ -21,12 +21,13 @@ const DrillList = ({ drills, onGenerateNew }) => {
             key={drill.id} 
             drill={drill} 
             order={index + 1}
+            onClick={onDrillSelect}
           />
         ))}
       </div>
       
       <div className="drill-list-footer">
-        <p>Ready to improve your tennis game? Start with the first drill and work your way through!</p>
+        <p>Click on any drill to see detailed instructions and tips!</p>
       </div>
     </div>
   );

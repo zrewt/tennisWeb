@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import './App.css';
 import DrillForm from './components/DrillForm';
 import DrillList from './components/DrillList';
+import DrillDetail from './components/DrillDetail';
 import { allDrills } from './data/drills';
 
 function App() {
   const [drills, setDrills] = useState([]);
   const [showResults, setShowResults] = useState(false);
+  const [selectedDrill, setSelectedDrill] = useState(null);
 
   const generateDrills = (formData) => {
     const { skillLevel, equipment, timeAvailable } = formData;
@@ -70,11 +72,21 @@ function App() {
     
     setDrills(selectedDrills);
     setShowResults(true);
+    setSelectedDrill(null);
   };
 
   const generateNewPlan = () => {
     setShowResults(false);
     setDrills([]);
+    setSelectedDrill(null);
+  };
+
+  const handleDrillSelect = (drill) => {
+    setSelectedDrill(drill);
+  };
+
+  const handleBackToList = () => {
+    setSelectedDrill(null);
   };
 
   return (
@@ -87,8 +99,14 @@ function App() {
       <main className="App-main">
         {!showResults ? (
           <DrillForm onGenerate={generateDrills} />
+        ) : selectedDrill ? (
+          <DrillDetail drill={selectedDrill} onBack={handleBackToList} />
         ) : (
-          <DrillList drills={drills} onGenerateNew={generateNewPlan} />
+          <DrillList 
+            drills={drills} 
+            onGenerateNew={generateNewPlan} 
+            onDrillSelect={handleDrillSelect}
+          />
         )}
       </main>
     </div>

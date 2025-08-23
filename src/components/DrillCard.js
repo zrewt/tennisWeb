@@ -1,9 +1,9 @@
 import React from 'react';
 import './DrillCard.css';
 
-const DrillCard = ({ drill, order }) => {
+const DrillCard = ({ drill, order, onClick }) => {
   return (
-    <div className="drill-card">
+    <div className="drill-card" onClick={() => onClick(drill)}>
       <div className="drill-card-header">
         <div className="drill-order">{order}</div>
         <div className="drill-icon">{drill.icon}</div>

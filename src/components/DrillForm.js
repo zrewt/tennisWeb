@@ -1,6 +1,45 @@
 import React, { useState } from 'react';
 import './DrillForm.css';
 
+const CustomDropdown = ({ label, value, onChange, options, name }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleSelect = (optionValue) => {
+    onChange({ target: { name, value: optionValue } });
+    setIsOpen(false);
+  };
+
+  const selectedOption = options.find(option => option.value === value);
+
+  return (
+    <div className="form-group">
+      <label htmlFor={name}>{label}:</label>
+      <div className={`custom-dropdown ${isOpen ? 'open' : ''}`}>
+        <div 
+          className="dropdown-header"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <span>{selectedOption ? selectedOption.label : 'Select an option'}</span>
+          <span className="dropdown-arrow">▼</span>
+        </div>
+        {isOpen && (
+          <div className="dropdown-options">
+            {options.map((option) => (
+              <div
+                key={option.value}
+                className={`dropdown-option ${value === option.value ? 'selected' : ''}`}
+                onClick={() => handleSelect(option.value)}
+              >
+                {option.label}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
 const DrillForm = ({ onGenerate }) => {
   const [formData, setFormData] = useState({
     skillLevel: 'beginner',
@@ -21,56 +60,53 @@ const DrillForm = ({ onGenerate }) => {
     }));
   };
 
+  const skillLevelOptions = [
+    { value: 'beginner', label: 'Beginner' },
+    { value: 'intermediate', label: 'Intermediate' },
+    { value: 'advanced', label: 'Advanced' }
+  ];
+
+  const equipmentOptions = [
+    { value: 'none', label: 'None (Solo Practice)' },
+    { value: 'partner', label: 'Partner' },
+    { value: 'wall', label: 'Wall' },
+    { value: 'ball machine', label: 'Ball Machine' }
+  ];
+
+  const timeOptions = [
+    { value: 15, label: '15 minutes' },
+    { value: 30, label: '30 minutes' },
+    { value: 60, label: '60 minutes' }
+  ];
+
   return (
     <div className="drill-form-container">
       <form className="drill-form" onSubmit={handleSubmit}>
         <h2>Select Your Practice Options</h2>
         
-        <div className="form-group">
-          <label htmlFor="skillLevel">Skill Level:</label>
-          <select
-            id="skillLevel"
-            name="skillLevel"
-            value={formData.skillLevel}
-            onChange={handleChange}
-            required
-          >
-            <option value="beginner">Beginner</option>
-            <option value="intermediate">Intermediate</option>
-            <option value="advanced">Advanced</option>
-          </select>
-        </div>
+        <CustomDropdown
+          label="Skill Level"
+          name="skillLevel"
+          value={formData.skillLevel}
+          onChange={handleChange}
+          options={skillLevelOptions}
+        />
 
-        <div className="form-group">
-          <label htmlFor="equipment">Equipment Available:</label>
-          <select
-            id="equipment"
-            name="equipment"
-            value={formData.equipment}
-            onChange={handleChange}
-            required
-          >
-            <option value="none">None (Solo Practice)</option>
-            <option value="partner">Partner</option>
-            <option value="wall">Wall</option>
-            <option value="ball machine">Ball Machine</option>
-          </select>
-        </div>
+        <CustomDropdown
+          label="Equipment Available"
+          name="equipment"
+          value={formData.equipment}
+          onChange={handleChange}
+          options={equipmentOptions}
+        />
 
-        <div className="form-group">
-          <label htmlFor="timeAvailable">Time Available:</label>
-          <select
-            id="timeAvailable"
-            name="timeAvailable"
-            value={formData.timeAvailable}
-            onChange={handleChange}
-            required
-          >
-            <option value={15}>15 minutes</option>
-            <option value={30}>30 minutes</option>
-            <option value={60}>60 minutes</option>
-          </select>
-        </div>
+        <CustomDropdown
+          label="Time Available"
+          name="timeAvailable"
+          value={formData.timeAvailable}
+          onChange={handleChange}
+          options={timeOptions}
+        />
 
         <button type="submit" className="generate-btn">
           Generate Practice Plan
