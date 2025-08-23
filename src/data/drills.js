@@ -1078,6 +1078,246 @@ export const allDrills = [
       "Adapt your shot selection to your opponent",
       "Stay patient and wait for opportunities",
       "Practice good shot selection habits"
-    ]
-  }
-];
+         ]
+   },
+   {
+     id: 46,
+     title: "Quick Serve Warm-Up",
+     description: "A fast-paced serve warm-up focusing on rhythm and consistency.",
+     timeRequired: 10,
+     skillLevel: ["beginner", "intermediate", "advanced"],
+     equipment: ["none", "partner"],
+     icon: "🎯",
+     instructions: [
+       "Start with 10 practice serves without hitting",
+       "Focus on consistent toss height and placement",
+       "Practice 5 second serves with slice",
+       "Practice 5 first serves with power",
+       "Work on rhythm and timing",
+       "End with 5 serves to specific targets"
+     ],
+     tips: [
+       "Keep your toss arm straight and extended",
+       "Use continental grip for better control",
+       "Transfer weight from back foot to front foot",
+       "Follow through towards your target",
+       "Stay relaxed and focused on rhythm"
+     ]
+   },
+   {
+     id: 47,
+     title: "Mini Court Rally",
+     description: "Practice quick rallies in a smaller court area to improve reflexes and control.",
+     timeRequired: 10,
+     skillLevel: ["beginner", "intermediate"],
+     equipment: ["partner"],
+     icon: "🎾",
+     instructions: [
+       "Mark a smaller court area (about half size)",
+       "Start with gentle forehand exchanges",
+       "Focus on keeping the ball in the smaller area",
+       "Practice both forehand and backhand",
+       "Work on quick reactions and positioning",
+       "Gradually increase pace while maintaining control"
+     ],
+     tips: [
+       "Stay on the balls of your feet",
+       "Keep your eye on the ball",
+       "Use shorter, controlled strokes",
+       "Focus on placement over power",
+       "Stay within the marked area"
+     ]
+   },
+   {
+     id: 48,
+     title: "Wall Target Practice",
+     description: "Practice hitting specific targets on a wall to improve accuracy.",
+     timeRequired: 10,
+     skillLevel: ["beginner", "intermediate", "advanced"],
+     equipment: ["wall"],
+     icon: "🎯",
+     instructions: [
+       "Mark 3-4 targets at different heights on the wall",
+       "Start with forehand shots to the lowest target",
+       "Practice hitting each target 5 times",
+       "Switch to backhand shots to targets",
+       "Work on consistency and accuracy",
+       "Challenge yourself with smaller targets"
+     ],
+     tips: [
+       "Keep your eye on the target, not the ball",
+       "Use proper footwork to get in position",
+       "Stay relaxed and focused",
+       "Practice both forehand and backhand equally",
+       "Gradually increase distance from wall"
+     ]
+   },
+   {
+     id: 49,
+     title: "Quick Volley Exchange",
+     description: "Fast-paced volley practice to improve reflexes and net play.",
+     timeRequired: 10,
+     skillLevel: ["intermediate", "advanced"],
+     equipment: ["partner"],
+     icon: "⚡",
+     instructions: [
+       "Both players stand close to the net",
+       "Start with gentle volley exchanges",
+       "Focus on quick reactions and positioning",
+       "Practice both forehand and backhand volleys",
+       "Work on volley placement and control",
+       "Gradually increase pace while maintaining control"
+     ],
+     tips: [
+       "Stay on the balls of your feet",
+       "Keep your racket head up and ready",
+       "Use short, compact strokes",
+       "Move forward to meet the ball",
+       "Stay relaxed and react quickly"
+     ]
+   },
+   {
+     id: 50,
+     title: "Ball Toss and Catch",
+     description: "Practice ball toss consistency and hand-eye coordination.",
+     timeRequired: 10,
+     skillLevel: ["beginner"],
+     equipment: ["none"],
+     icon: "⬆️",
+     instructions: [
+       "Stand in your serving position",
+       "Practice tossing without hitting for 3 minutes",
+       "Focus on consistent height and placement",
+       "Practice catching the ball at the peak",
+       "Work on tossing to different positions",
+       "End with 2 minutes of serve motion practice"
+     ],
+     tips: [
+       "Keep your tossing arm straight",
+       "Release the ball at eye level",
+       "Don't spin the ball during toss",
+       "Practice in front of a mirror",
+       "Aim for consistent height each time"
+     ]
+   },
+   {
+     id: 51,
+     title: "Quick Footwork Drill",
+     description: "Fast-paced footwork practice to improve movement and agility.",
+     timeRequired: 10,
+     skillLevel: ["beginner", "intermediate", "advanced"],
+     equipment: ["none"],
+     icon: "🏃",
+     instructions: [
+       "Set up 4 cones in a square pattern",
+       "Practice side-to-side movement between cones",
+       "Add forward and backward movements",
+       "Incorporate split-steps before direction changes",
+       "Work on quick direction changes",
+       "Practice explosive movements and quick stops"
+     ],
+     tips: [
+       "Stay on the balls of your feet",
+       "Keep your knees slightly bent",
+       "Use your arms for balance and momentum",
+       "Focus on quick, explosive movements",
+       "Practice both directions equally"
+     ]
+   },
+   {
+     id: 52,
+     title: "Mini Match Points",
+     description: "Practice playing quick points to improve match play skills.",
+     timeRequired: 10,
+     skillLevel: ["intermediate", "advanced"],
+     equipment: ["partner"],
+     icon: "🏆",
+     instructions: [
+       "Play quick points with first to 5 points wins",
+       "Focus on implementing your practice skills",
+       "Work on strategy and tactics",
+       "Practice serving and returning under pressure",
+       "Focus on mental toughness and focus",
+       "Play 2-3 mini matches"
+     ],
+     tips: [
+       "Treat each point like a real match",
+       "Focus on your game plan and strategy",
+       "Stay positive and confident",
+       "Learn from each point",
+       "Practice good sportsmanship"
+     ]
+   },
+   {
+     id: 53,
+     title: "Quick Reflex Training",
+     description: "Improve reflexes and reaction time with fast-paced drills.",
+     timeRequired: 10,
+     skillLevel: ["intermediate", "advanced"],
+     equipment: ["partner"],
+     icon: "⚡",
+     instructions: [
+       "Stand close to your partner",
+       "Practice quick ball exchanges",
+       "Work on reflex volleys and half-volleys",
+       "Focus on quick reactions and positioning",
+       "Practice volley combinations and patterns",
+       "Work on defensive volleys and recovery"
+     ],
+     tips: [
+       "Stay on the balls of your feet",
+       "Keep your racket head up and ready",
+       "React quickly to each shot",
+       "Use your legs for quick movements",
+       "Practice both offensive and defensive play"
+     ]
+   },
+   {
+     id: 54,
+     title: "Wall Rally Challenge",
+     description: "Challenge yourself with wall rallies to improve consistency.",
+     timeRequired: 10,
+     skillLevel: ["beginner", "intermediate", "advanced"],
+     equipment: ["wall"],
+     icon: "🏓",
+     instructions: [
+       "Set a goal of 20 consecutive hits",
+       "Start with forehand strokes",
+       "Focus on consistent contact and form",
+       "Switch to backhand after 5 minutes",
+       "Work on hitting to different heights",
+       "Challenge yourself to reach higher counts"
+     ],
+     tips: [
+       "Keep your eyes on the ball at all times",
+       "Use your legs to generate power",
+       "Stay relaxed and avoid tensing up",
+       "Focus on consistency over speed",
+       "Record your best counts and improve"
+     ]
+   },
+   {
+     id: 55,
+     title: "Quick Serve Practice",
+     description: "Focused serve practice to improve technique and consistency.",
+     timeRequired: 10,
+     skillLevel: ["beginner", "intermediate", "advanced"],
+     equipment: ["none", "partner"],
+     icon: "🎯",
+     instructions: [
+       "Practice 10 second serves with slice",
+       "Focus on consistent toss and placement",
+       "Practice 10 first serves with power",
+       "Work on serving to different targets",
+       "Practice both deuce and ad court serves",
+       "End with 5 practice serves to specific spots"
+     ],
+     tips: [
+       "Keep your toss arm straight and extended",
+       "Use continental grip for better control",
+       "Transfer weight from back foot to front foot",
+       "Follow through towards your target",
+       "Stay focused on technique and consistency"
+     ]
+   }
+ ];
