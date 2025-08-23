@@ -9,7 +9,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.App-header {
+.App-header { 
   background: white;
   padding: 40px 20px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
