@@ -839,5 +839,245 @@ export const allDrills = [
       "Learn from each point and game",
       "Practice good sportsmanship"
     ]
+  },
+  {
+    id: 36,
+    title: "Tennis Ball Juggling",
+    description: "Improve hand-eye coordination and ball control with tennis ball juggling exercises.",
+    timeRequired: 15,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["tennis balls"],
+    icon: "🤹",
+    instructions: [
+      "Start with one ball, bouncing it with your racket",
+      "Practice keeping the ball in the air for as long as possible",
+      "Progress to two balls, alternating hands",
+      "Work on different heights and speeds",
+      "Practice juggling while moving around",
+      "Try juggling with your non-dominant hand"
+    ],
+    tips: [
+      "Keep your eye on the ball at all times",
+      "Start slow and gradually increase speed",
+      "Use your wrist for control, not just your arm",
+      "Practice in a safe area with plenty of space",
+      "Focus on consistency over speed initially"
+    ]
+  },
+  {
+    id: 37,
+    title: "Target Practice",
+    description: "Improve accuracy by hitting specific targets on the court.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["targets", "partner"],
+    icon: "🎯",
+    instructions: [
+      "Set up targets in different areas of the court",
+      "Practice hitting forehands to specific targets",
+      "Work on backhand accuracy to targets",
+      "Practice serving to target areas",
+      "Focus on hitting targets from different positions",
+      "Keep track of your success rate"
+    ],
+    tips: [
+      "Start with larger targets and gradually make them smaller",
+      "Focus on form and technique over power",
+      "Use proper footwork to get in position",
+      "Keep your eye on the target, not the ball",
+      "Practice both forehand and backhand equally"
+    ]
+  },
+  {
+    id: 38,
+    title: "Speed and Agility Training",
+    description: "Improve your speed and agility with tennis-specific drills.",
+    timeRequired: 25,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["cones", "ladder"],
+    icon: "🏃‍♂️",
+    instructions: [
+      "Set up an agility ladder or cone course",
+      "Practice quick footwork patterns through the ladder",
+      "Work on lateral movement between cones",
+      "Practice forward and backward sprints",
+      "Add tennis movements like split-steps",
+      "Time yourself and try to improve"
+    ],
+    tips: [
+      "Stay on the balls of your feet",
+      "Keep your knees slightly bent",
+      "Use your arms for balance and momentum",
+      "Focus on quick, explosive movements",
+      "Warm up properly before starting"
+    ]
+  },
+  {
+    id: 39,
+    title: "Mental Visualization Practice",
+    description: "Improve your mental game through visualization and mental practice.",
+    timeRequired: 15,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "🧘",
+    instructions: [
+      "Find a quiet place to sit comfortably",
+      "Close your eyes and visualize successful tennis shots",
+      "Imagine yourself playing perfect points",
+      "Practice mental rehearsal of different scenarios",
+      "Visualize handling pressure situations",
+      "Focus on positive outcomes and confidence"
+    ],
+    tips: [
+      "Practice visualization regularly",
+      "Include all your senses in the visualization",
+      "Focus on the process, not just the outcome",
+      "Use positive self-talk during visualization",
+      "Combine mental practice with physical practice"
+    ]
+  },
+  {
+    id: 40,
+    title: "Cross-Training Workout",
+    description: "Improve overall fitness with tennis-specific cross-training exercises.",
+    timeRequired: 30,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["weights", "resistance bands"],
+    icon: "💪",
+    instructions: [
+      "Start with dynamic stretching and warm-up",
+      "Practice tennis-specific strength exercises",
+      "Work on core strength and stability",
+      "Practice plyometric exercises for power",
+      "Include cardiovascular conditioning",
+      "End with cool-down and stretching"
+    ],
+    tips: [
+      "Focus on tennis-specific movements",
+      "Build strength gradually over time",
+      "Include rest days in your routine",
+      "Stay hydrated throughout your workout",
+      "Listen to your body and avoid overtraining"
+    ]
+  },
+  {
+    id: 41,
+    title: "Recovery and Flexibility",
+    description: "Improve flexibility and recovery with stretching and mobility exercises.",
+    timeRequired: 20,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["yoga mat"],
+    icon: "🧘‍♀️",
+    instructions: [
+      "Start with gentle dynamic stretching",
+      "Practice tennis-specific flexibility exercises",
+      "Work on hip and shoulder mobility",
+      "Practice deep breathing and relaxation",
+      "Include static stretching for major muscle groups",
+      "Focus on areas that get tight from tennis"
+    ],
+    tips: [
+      "Hold stretches for 20-30 seconds",
+      "Don't bounce during static stretches",
+      "Breathe deeply and relax into stretches",
+      "Focus on areas that feel tight",
+      "Practice regularly for best results"
+    ]
+  },
+  {
+    id: 42,
+    title: "Tennis-Specific Nutrition",
+    description: "Learn about proper nutrition for tennis performance and recovery.",
+    timeRequired: 10,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "🍎",
+    instructions: [
+      "Learn about pre-match nutrition timing",
+      "Understand proper hydration during play",
+      "Practice post-match recovery nutrition",
+      "Plan meals around your tennis schedule",
+      "Learn about energy-boosting snacks",
+      "Understand the importance of protein for recovery"
+    ],
+    tips: [
+      "Eat a balanced meal 2-3 hours before playing",
+      "Stay hydrated throughout your session",
+      "Include protein and carbs in post-match meals",
+      "Listen to your body's hunger and thirst signals",
+      "Plan ahead for tournament days"
+    ]
+  },
+  {
+    id: 43,
+    title: "Equipment Maintenance",
+    description: "Learn how to properly maintain your tennis equipment for optimal performance.",
+    timeRequired: 15,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["tennis racket", "strings", "grip"],
+    icon: "🔧",
+    instructions: [
+      "Learn how to check your racket strings",
+      "Practice proper grip replacement",
+      "Understand when to restring your racket",
+      "Learn about racket tension and its effects",
+      "Practice proper racket storage and care",
+      "Understand equipment selection for your level"
+    ],
+    tips: [
+      "Check your strings regularly for wear",
+      "Replace your grip when it becomes slippery",
+      "Store your racket in a protective case",
+      "Consider your playing style when choosing equipment",
+      "Consult with a tennis pro for equipment advice"
+    ]
+  },
+  {
+    id: 44,
+    title: "Tennis Rules and Etiquette",
+    description: "Learn and practice proper tennis rules, scoring, and etiquette.",
+    timeRequired: 15,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "📚",
+    instructions: [
+      "Review basic tennis rules and scoring",
+      "Practice proper court etiquette",
+      "Learn about line calls and sportsmanship",
+      "Understand doubles rules and positioning",
+      "Practice proper warm-up and cool-down etiquette",
+      "Learn about tournament rules and procedures"
+    ],
+    tips: [
+      "Always call lines honestly and fairly",
+      "Show good sportsmanship to your opponent",
+      "Follow proper court etiquette",
+      "Learn the rules thoroughly",
+      "Practice good communication with partners"
+    ]
+  },
+  {
+    id: 45,
+    title: "Tennis History and Culture",
+    description: "Learn about tennis history, famous players, and tennis culture.",
+    timeRequired: 10,
+    skillLevel: ["beginner", "intermediate", "advanced"],
+    equipment: ["none"],
+    icon: "🏛️",
+    instructions: [
+      "Learn about the history of tennis",
+      "Study famous players and their techniques",
+      "Watch classic tennis matches",
+      "Learn about different tennis tournaments",
+      "Understand tennis culture and traditions",
+      "Study the evolution of tennis equipment"
+    ],
+    tips: [
+      "Watch matches from different eras",
+      "Learn from the techniques of great players",
+      "Understand the traditions of tennis",
+      "Appreciate the history of the sport",
+      "Use historical knowledge to improve your game"
+    ]
   }
 ];
