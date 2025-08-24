@@ -1319,5 +1319,245 @@ export const allDrills = [
        "Follow through towards your target",
        "Stay focused on technique and consistency"
      ]
+   },
+   {
+     id: 56,
+     title: "Quick Forehand Focus",
+     description: "Intensive 5-minute forehand practice focusing on form and consistency.",
+     timeRequired: 5,
+     skillLevel: ["beginner", "intermediate", "advanced"],
+     equipment: ["partner", "wall"],
+     icon: "🎾",
+     instructions: [
+       "Start with 2 minutes of wall forehand practice",
+       "Focus on consistent contact in the sweet spot",
+       "Practice hitting to different heights",
+       "Switch to partner forehand exchanges for 2 minutes",
+       "Work on depth and placement",
+       "End with 1 minute of power forehand practice"
+     ],
+     tips: [
+       "Keep your eye on the ball through contact",
+       "Use proper weight transfer from back to front foot",
+       "Stay relaxed and avoid over-hitting",
+       "Focus on consistency over power initially",
+       "Use semi-western or eastern forehand grip"
+     ]
+   },
+   {
+     id: 57,
+     title: "Backhand Blitz",
+     description: "Quick backhand practice session to improve technique and confidence.",
+     timeRequired: 5,
+     skillLevel: ["beginner", "intermediate", "advanced"],
+     equipment: ["partner", "wall"],
+     icon: "🎾",
+     instructions: [
+       "Practice backhand against wall for 2 minutes",
+       "Focus on proper grip and follow-through",
+       "Work on consistent contact point",
+       "Switch to partner backhand exchanges for 2 minutes",
+       "Practice both cross-court and down-the-line",
+       "End with 1 minute of backhand slice practice"
+     ],
+     tips: [
+       "Use continental grip for one-handed backhand",
+       "Keep your non-dominant hand on racket for two-handed",
+       "Bend your knees and stay low",
+       "Rotate your shoulders through the shot",
+       "Follow through towards your target"
+     ]
+   },
+   {
+     id: 58,
+     title: "Serve Speed Session",
+     description: "Quick serve practice focusing on speed and accuracy.",
+     timeRequired: 5,
+     skillLevel: ["intermediate", "advanced"],
+     equipment: ["none", "partner"],
+     icon: "🎯",
+     instructions: [
+       "Practice 10 first serves with maximum power",
+       "Focus on proper technique and follow-through",
+       "Work on serving to different targets",
+       "Practice 10 second serves with spin",
+       "Focus on consistency and placement",
+       "End with 5 serves to specific corners"
+     ],
+     tips: [
+       "Use your legs to generate power",
+       "Keep your toss arm straight and extended",
+       "Transfer weight from back foot to front foot",
+       "Follow through towards your target",
+       "Stay relaxed and focused on rhythm"
+     ]
+   },
+   {
+     id: 59,
+     title: "Volley Velocity",
+     description: "Fast-paced volley practice to improve reflexes and net play.",
+     timeRequired: 5,
+     skillLevel: ["intermediate", "advanced"],
+     equipment: ["partner"],
+     icon: "⚡",
+     instructions: [
+       "Both players stand close to the net",
+       "Practice quick volley exchanges for 3 minutes",
+       "Focus on reflex volleys and positioning",
+       "Work on volley placement and angles",
+       "Practice both forehand and backhand volleys",
+       "End with 2 minutes of aggressive volley practice"
+     ],
+     tips: [
+       "Stay on the balls of your feet",
+       "Keep your racket head up and ready",
+       "Use short, compact strokes",
+       "Move forward to meet the ball",
+       "Use continental grip for all volleys"
+     ]
+   },
+   {
+     id: 60,
+     title: "Footwork Frenzy",
+     description: "Intensive footwork practice to improve movement and agility.",
+     timeRequired: 5,
+     skillLevel: ["beginner", "intermediate", "advanced"],
+     equipment: ["none"],
+     icon: "🏃",
+     instructions: [
+       "Set up 6 cones in a zigzag pattern",
+       "Practice side-to-side movement for 2 minutes",
+       "Add forward and backward movements",
+       "Incorporate split-steps before direction changes",
+       "Work on explosive movements and quick stops",
+       "End with 1 minute of ladder drill patterns"
+     ],
+     tips: [
+       "Stay on the balls of your feet",
+       "Keep your knees slightly bent",
+       "Use your arms for balance and momentum",
+       "Focus on quick, explosive movements",
+       "Practice both directions equally"
+     ]
+   },
+   {
+     id: 61,
+     title: "Wall Workout",
+     description: "Quick wall practice session to improve consistency and control.",
+     timeRequired: 5,
+     skillLevel: ["beginner", "intermediate", "advanced"],
+     equipment: ["wall"],
+     icon: "🏓",
+     instructions: [
+       "Practice forehand wall rallies for 2 minutes",
+       "Focus on consistent contact and form",
+       "Switch to backhand wall practice for 2 minutes",
+       "Work on hitting to different heights",
+       "Practice serve returns against wall",
+       "End with 1 minute of alternating forehand/backhand"
+     ],
+     tips: [
+       "Keep your eyes on the ball at all times",
+       "Use your legs to generate power",
+       "Stay relaxed and avoid tensing up",
+       "Focus on consistency rather than speed",
+       "Gradually increase your distance from the wall"
+     ]
+   },
+   {
+     id: 62,
+     title: "Return Rush",
+     description: "Quick return of serve practice to improve reaction time and placement.",
+     timeRequired: 5,
+     skillLevel: ["intermediate", "advanced"],
+     equipment: ["partner"],
+     icon: "🎯",
+     instructions: [
+       "Partner serves, you return for 3 minutes",
+       "Start with second serves for consistency",
+       "Practice returning to different targets",
+       "Work on both forehand and backhand returns",
+       "Focus on getting the ball back in play",
+       "End with 2 minutes of aggressive returns"
+     ],
+     tips: [
+       "Stay on the balls of your feet",
+       "Split-step when your partner tosses",
+       "Take the ball early when possible",
+       "Use continental grip for better control",
+       "Focus on depth and placement"
+     ]
+   },
+   {
+     id: 63,
+     title: "Overhead Overdrive",
+     description: "Quick overhead smash practice to improve timing and power.",
+     timeRequired: 5,
+     skillLevel: ["intermediate", "advanced"],
+     equipment: ["partner"],
+     icon: "💥",
+     instructions: [
+       "Partner hits lobs, you practice overheads for 3 minutes",
+       "Focus on proper positioning and timing",
+       "Work on smash placement and power",
+       "Practice overheads from different positions",
+       "Focus on using the same motion as your serve",
+       "End with 2 minutes of overhead combinations"
+     ],
+     tips: [
+       "Position yourself under the ball",
+       "Keep your eye on the ball throughout",
+       "Use your legs to generate power",
+       "Follow through towards your target",
+       "Stay balanced and controlled"
+     ]
+   },
+   {
+     id: 64,
+     title: "Drop Shot Dash",
+     description: "Quick drop shot practice to improve touch and finesse.",
+     timeRequired: 5,
+     skillLevel: ["intermediate", "advanced"],
+     equipment: ["partner"],
+     icon: "🎯",
+     instructions: [
+       "Practice drop shots from baseline for 2 minutes",
+       "Focus on soft hands and gentle contact",
+       "Work on drop shot placement and disguise",
+       "Practice both forehand and backhand drop shots",
+       "Add movement to retrieve drop shots",
+       "End with 1 minute of touch shots at the net"
+     ],
+     tips: [
+       "Use continental grip for better touch",
+       "Keep your wrist firm but relaxed",
+       "Disguise your drop shot intention",
+       "Practice from different court positions",
+       "Work on recovery after drop shots"
+     ]
+   },
+   {
+     id: 65,
+     title: "Slice Sprint",
+     description: "Quick slice practice to improve variety and control in your game.",
+     timeRequired: 5,
+     skillLevel: ["intermediate", "advanced"],
+     equipment: ["partner"],
+     icon: "🔪",
+     instructions: [
+       "Practice forehand slice for 2 minutes",
+       "Focus on low, skidding slice shots",
+       "Switch to backhand slice for 2 minutes",
+       "Work on slice approach shots",
+       "Practice slice volleys at the net",
+       "End with 1 minute of slice combinations"
+     ],
+     tips: [
+       "Use continental grip for better slice control",
+       "Keep your racket face slightly open",
+       "Follow through low and forward",
+       "Stay low and bend your knees",
+       "Use slice for variety and defense"
+     ]
    }
  ];
