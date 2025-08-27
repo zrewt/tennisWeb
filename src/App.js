@@ -92,7 +92,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>🎾 TempoDrill</h1>
+        <h1>
+          <a href="https://tempodrill.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+            🎾 TempoDrill
+          </a>
+        </h1>
         <p>Create your personalized practice plan</p>
       </header>
       
