@@ -93,7 +93,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          <a href="https://tempodrill.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <a href="https://tempodrill.com" style={{ textDecoration: 'none', color: 'inherit' }}>
             🎾 TempoDrill
           </a>
         </h1>
