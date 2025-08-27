@@ -15,9 +15,9 @@ function App() {
     
     // Define time ranges for each selected time
     const timeRanges = {
-      15: { min: 10, max: 20 },
-      30: { min: 25, max: 35 },
-      60: { min: 50, max: 70 }
+      15: { min: 10, max: 15 },
+      30: { min: 25, max: 30 },
+      60: { min: 50, max: 60 }
     };
     
     const timeRange = timeRanges[timeAvailable];
