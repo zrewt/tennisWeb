@@ -62,6 +62,14 @@
   font-weight: 500;
 }
 
+.drill-time1 {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .drill-detail-content {
   padding: 40px;
 }

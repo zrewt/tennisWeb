@@ -12,7 +12,7 @@ const DrillDetail = ({ drill, onBack }) => {
           <div className="drill-detail-title">
             <h1>{drill.title}</h1>
             <div className="drill-detail-meta">
-              <span className="drill-time">{drill.timeRequired} minutes</span>
+              <span className="drill-time1">{drill.timeRequired} minutes</span>
               <span className="drill-skill">{drill.skillLevel.join(', ')}</span>
             </div>
           </div>
