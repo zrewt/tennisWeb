@@ -335,5 +335,125 @@ export const advancedDrills = [
       "Include rest days in your routine",
       "Stay hydrated throughout your workout"
     ]
+  },
+  {
+    id: 73,
+    title: "Advanced Ball Machine Power Training",
+    description: "Use ball machine for advanced power training with heavy topspin and aggressive shot selection.",
+    timeRequired: 30,
+    skillLevel: ["advanced"],
+    equipment: ["ball machine"],
+    icon: "🤖",
+    instructions: [
+      "Set ball machine to high speed and heavy topspin",
+      "Practice powerful forehands with maximum topspin",
+      "Work on backhand power and control",
+      "Focus on generating power with proper technique",
+      "Practice power shot placement and accuracy",
+      "Work on returning powerful shots from the machine"
+    ],
+    tips: [
+      "Use your legs to generate maximum power",
+      "Transfer weight from back to front foot",
+      "Keep your eye on the ball through contact",
+      "Follow through towards your target",
+      "Stay balanced and controlled"
+    ]
+  },
+  {
+    id: 74,
+    title: "Ball Machine Volley Mastery",
+    description: "Advanced volley practice using ball machine for consistent repetition and technique refinement.",
+    timeRequired: 25,
+    skillLevel: ["advanced"],
+    equipment: ["ball machine"],
+    icon: "🤖",
+    instructions: [
+      "Position ball machine at net height",
+      "Practice quick volley exchanges with the machine",
+      "Work on reflex volleys and half-volleys",
+      "Focus on volley placement and angles",
+      "Practice aggressive net play with machine",
+      "Work on volley combinations and patterns"
+    ],
+    tips: [
+      "Stay on the balls of your feet",
+      "Keep your racket head up and ready",
+      "Move forward to meet the ball",
+      "Use your legs for power and stability",
+      "Practice both offensive and defensive volleys"
+    ]
+  },
+  {
+    id: 75,
+    title: "Ball Machine Serve Return Training",
+    description: "Advanced serve return practice using ball machine to simulate different serve types and speeds.",
+    timeRequired: 35,
+    skillLevel: ["advanced"],
+    equipment: ["ball machine"],
+    icon: "🤖",
+    instructions: [
+      "Set ball machine to simulate different serve types",
+      "Practice returning first serves with power",
+      "Work on second serve returns with placement",
+      "Focus on returning wide serves and body serves",
+      "Practice return placement and depth",
+      "Work on aggressive returns when appropriate"
+    ],
+    tips: [
+      "Stay on the balls of your feet",
+      "Split-step when the machine releases the ball",
+      "Take the ball early when possible",
+      "Use continental grip for better control",
+      "Focus on depth and placement"
+    ]
+  },
+  {
+    id: 76,
+    title: "Ball Machine Footwork and Movement",
+    description: "Advanced footwork training using ball machine to improve court coverage and movement patterns.",
+    timeRequired: 30,
+    skillLevel: ["advanced"],
+    equipment: ["ball machine"],
+    icon: "🤖",
+    instructions: [
+      "Set ball machine to random placement",
+      "Practice moving to all areas of the court",
+      "Work on recovery to center position",
+      "Focus on efficient movement patterns",
+      "Practice split-steps and direction changes",
+      "Work on covering wide shots and angles"
+    ],
+    tips: [
+      "Stay in ready position between shots",
+      "Use split-steps before moving",
+      "Recover to center after each shot",
+      "Stay on the balls of your feet",
+      "Practice both directions equally"
+    ]
+  },
+  {
+    id: 77,
+    title: "Ball Machine Pressure Point Simulation",
+    description: "Simulate pressure situations using ball machine to practice mental toughness and shot selection.",
+    timeRequired: 40,
+    skillLevel: ["advanced"],
+    equipment: ["ball machine"],
+    icon: "🤖",
+    instructions: [
+      "Set up pressure scenarios with ball machine",
+      "Practice serving and returning under pressure",
+      "Work on handling break point situations",
+      "Focus on mental toughness and focus",
+      "Practice different pressure scenarios",
+      "Work on staying calm under pressure"
+    ],
+    tips: [
+      "Stay focused on one shot at a time",
+      "Use positive self-talk under pressure",
+      "Control your breathing during pressure",
+      "Focus on what you can control",
+      "Learn from pressure situations"
+    ]
   }
 ];
