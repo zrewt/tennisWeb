@@ -9,6 +9,7 @@ function App() {
   const [drills, setDrills] = useState([]);
   const [showResults, setShowResults] = useState(false);
   const [selectedDrill, setSelectedDrill] = useState(null);
+  const [notification, setNotification] = useState({ show: false, message: '' });
 
   const generateDrills = (formData) => {
     const { skillLevel, equipment, timeAvailable } = formData;
@@ -89,15 +90,57 @@ function App() {
     setSelectedDrill(null);
   };
 
+  const handleContactClick = async () => {
+    const email = 'tempotennisdrills@gmail.com';
+    try {
+      await navigator.clipboard.writeText(email);
+      showNotification(`Email copied to clipboard: ${email}`);
+    } catch (err) {
+      // Fallback for older browsers
+      const textArea = document.createElement('textarea');
+      textArea.value = email;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textArea);
+      showNotification(`Email copied to clipboard: ${email}`);
+    }
+  };
+
+  const showNotification = (message) => {
+    setNotification({ show: true, message });
+    setTimeout(() => {
+      setNotification({ show: false, message: '' });
+    }, 3000);
+  };
+
   return (
     <div className="App">
+      {notification.show && (
+        <div className="notification">
+          <div className="notification-content">
+            <span className="notification-icon">✓</span>
+            <span className="notification-message">{notification.message}</span>
+          </div>
+        </div>
+      )}
       <header className="App-header">
-        <h1>
-          <a href="https://tempodrill.com" style={{ textDecoration: 'none', color: 'inherit' }}>
-            🎾 TempoDrill
-          </a>
-        </h1>
-        <p>Create your personalized practice plan</p>
+        <div className="header-content">
+          <div className="header-left"></div>
+          <div className="header-center">
+            <h1>
+              <a href="https://tempodrill.com" style={{ textDecoration: 'none', color: 'inherit' }}>
+                🎾 TempoDrill
+              </a>
+            </h1>
+            <p>Create your personalized practice plan</p>
+          </div>
+          <div className="header-right">
+            <button className="contact-btn" onClick={handleContactClick}>
+              Contact Us
+            </button>
+          </div>
+        </div>
       </header>
       
       <main className="App-main">
