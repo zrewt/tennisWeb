@@ -14,64 +14,75 @@ function App() {
   const generateDrills = (formData) => {
     const { skillLevel, equipment, timeAvailable } = formData;
     
-    // Define time ranges for each selected time
-    const timeRanges = {
-      15: { min: 10, max: 15 },
-      30: { min: 25, max: 30 },
-      60: { min: 50, max: 60 }
-    };
-    
-    const timeRange = timeRanges[timeAvailable];
-    
     // Filter drills based on user selections
     const filteredDrills = allDrills.filter(drill => {
       const matchesSkill = drill.skillLevel.includes(skillLevel);
       const matchesEquipment = drill.equipment.includes(equipment);
-      const matchesTime = drill.timeRequired <= timeRange.max;
-      return matchesSkill && matchesEquipment && matchesTime;
+      return matchesSkill && matchesEquipment;
     });
 
-    // Shuffle the filtered drills
-    const shuffled = filteredDrills.sort(() => 0.5 - Math.random());
-    
-    // Select drills to fill the available time optimally within the range
-    const selectedDrills = [];
-    let totalTime = 0;
-    
-    // Keep adding drills while we have time and available drills
-    for (let i = 0; i < shuffled.length && selectedDrills.length < 8; i++) {
-      const drill = shuffled[i];
-      
-      // Check if adding this drill would keep us within the time range
-      if (totalTime + drill.timeRequired <= timeRange.max) {
-        selectedDrills.push(drill);
-        totalTime += drill.timeRequired;
-      }
+    if (filteredDrills.length === 0) {
+      setDrills([]);
+      setShowResults(true);
+      setSelectedDrill(null);
+      return;
     }
-    
-    // Ensure we meet the minimum time requirement
-    if (totalTime < timeRange.min && shuffled.length > 0) {
-      // Try to add more drills to reach minimum time
-      for (let i = 0; i < shuffled.length; i++) {
+
+    // Try to find the best combination of drills that gets as close as possible to the target time
+    const targetTime = timeAvailable;
+    let bestCombination = [];
+    let bestTimeDifference = Infinity;
+    let bestTotalTime = 0;
+
+    // Generate multiple random combinations and pick the best one
+    for (let attempt = 0; attempt < 50; attempt++) {
+      const shuffled = [...filteredDrills].sort(() => 0.5 - Math.random());
+      const selectedDrills = [];
+      let totalTime = 0;
+      
+      // Try to add drills to get as close as possible to target time
+      for (let i = 0; i < shuffled.length && selectedDrills.length < 8; i++) {
         const drill = shuffled[i];
-        if (!selectedDrills.find(d => d.id === drill.id) && 
-            totalTime + drill.timeRequired <= timeRange.max) {
+        
+        // If adding this drill gets us closer to the target time, add it
+        const newTotalTime = totalTime + drill.timeRequired;
+        const currentDifference = Math.abs(targetTime - totalTime);
+        const newDifference = Math.abs(targetTime - newTotalTime);
+        
+        // Add drill if it gets us closer to target or if we're under target and this doesn't exceed it too much
+        if (newDifference < currentDifference || (totalTime < targetTime && newTotalTime <= targetTime + 5)) {
           selectedDrills.push(drill);
-          totalTime += drill.timeRequired;
-          if (totalTime >= timeRange.min) break;
+          totalTime = newTotalTime;
         }
       }
+      
+      // Calculate how close this combination is to the target time
+      const timeDifference = Math.abs(targetTime - totalTime);
+      
+      // If this combination is better (closer to target time), keep it
+      if (timeDifference < bestTimeDifference || 
+          (timeDifference === bestTimeDifference && totalTime > bestTotalTime)) {
+        bestCombination = [...selectedDrills];
+        bestTimeDifference = timeDifference;
+        bestTotalTime = totalTime;
+      }
+      
+      // If we found an exact match, we can stop early
+      if (timeDifference === 0) {
+        break;
+      }
     }
     
-    // If we still don't have enough drills, add the shortest available drills
-    if (selectedDrills.length < 2 && shuffled.length >= 2) {
-      const shortestDrills = shuffled
+    // If we still don't have any drills, add the shortest available drills
+    if (bestCombination.length === 0 && filteredDrills.length > 0) {
+      const shortestDrills = filteredDrills
         .sort((a, b) => a.timeRequired - b.timeRequired)
-        .slice(0, 2);
-      selectedDrills.splice(0, selectedDrills.length, ...shortestDrills);
+        .slice(0, Math.min(3, filteredDrills.length));
+      bestCombination = shortestDrills;
+      bestTotalTime = shortestDrills.reduce((sum, drill) => sum + drill.timeRequired, 0);
     }
     
-    setDrills(selectedDrills);
+    setDrills(bestCombination);
     setShowResults(true);
     setSelectedDrill(null);
   };
