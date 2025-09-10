@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8" />
 
-    <!-- Single Favicon -->
-    <link rel="icon" type="image/x-icon" href="%PUBLIC_URL%/favicon.ico?v=7" />
-    <link rel="shortcut icon" type="image/x-icon" href="%PUBLIC_URL%/favicon.ico?v=7" />
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" href="/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <!-- Viewport and theme -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,27 +26,24 @@
     <meta name="language" content="English" />
     <link rel="canonical" href="https://tempodrill.com/" />
 
-
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SX9WBCG2C2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SX9WBCG2C2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SX9WBCG2C2');
+    </script>
 
-  gtag('config', 'G-SX9WBCG2C2');
-</script>
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3853730073916480"
-     crossorigin="anonymous"></script>
-
-<!-- AdSense Auto Ads -->
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-3853730073916480",
-    enable_page_level_ads: true
-  });
-</script>
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3853730073916480"
+      crossorigin="anonymous"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-3853730073916480",
+        enable_page_level_ads: true
+      });
+    </script>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
