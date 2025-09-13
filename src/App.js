@@ -101,7 +101,8 @@ function App() {
     setSelectedDrill(null);
   };
 
-  const handleContactClick = async () => {
+  const handleContactClick = async (e) => {
+    e.preventDefault();
     const email = 'tempotennisdrills@gmail.com';
     try {
       await navigator.clipboard.writeText(email);
@@ -146,11 +147,7 @@ function App() {
             </h1>
             <p>Create your personalized practice plan</p>
           </div>
-          <div className="header-right">
-            <button className="contact-btn" onClick={handleContactClick}>
-              Contact Us
-            </button>
-          </div>
+          <div className="header-right"></div>
         </div>
       </header>
       
@@ -167,6 +164,19 @@ function App() {
           />
         )}
       </main>
+      
+      <footer className="App-footer">
+        <div className="footer-content">
+          <div className="footer-left">
+            <p>&copy; 2024 TempoDrill. All rights reserved.</p>
+          </div>
+          <div className="footer-right">
+            <a href="#" className="footer-contact-link" onClick={handleContactClick}>
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

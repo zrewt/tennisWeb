@@ -11,9 +11,9 @@
 
 .App-header { 
   background: white;
-  padding: 40px 20px;
+  padding: 70px 20px 60px 20px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-  margin-bottom: 40px;
+  margin-bottom: 40
 }
 
 .header-content {
@@ -42,27 +42,6 @@
   align-items: center;
 }
 
-.contact-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
-}
-
-.contact-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
-}
-
-.contact-btn:active {
-  transform: translateY(0);
-}
 
 .notification {
   position: fixed;
@@ -129,15 +108,17 @@
   color: #333;
   font-size: 36px;
   font-weight: 700;
-  margin: 0 0 10px 0;
+  margin: 0 0 15px 0;
   letter-spacing: -0.5px;
+  line-height: 1.2;
 }
 
 .App-header p {
   color: #666;
   font-size: 18px;
-  margin: 0;
+  margin: 0 0 5px 0;
   font-weight: 400;
+  line-height: 1.4;
 }
 
 .App-main {
@@ -148,7 +129,7 @@
 
 @media (max-width: 768px) {
   .App-header {
-    padding: 30px 15px;
+    padding: 40px 15px 50px 15px;
     margin-bottom: 30px;
   }
   
@@ -169,16 +150,14 @@
   
   .App-header h1 {
     font-size: 28px;
+    margin: 0 0 12px 0;
   }
   
   .App-header p {
     font-size: 16px;
+    margin: 0 0 8px 0;
   }
   
-  .contact-btn {
-    padding: 6px 12px;
-    font-size: 12px;
-  }
   
   .App-main {
     padding: 0 15px;
@@ -193,5 +172,76 @@
   .notification-content {
     padding: 12px 16px;
     font-size: 13px;
+  }
+}
+
+/* Footer Styles */
+.App-footer {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  margin-top: 60px;
+  padding: 30px 20px;
+  box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.05);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.footer-left p {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.footer-contact-link {
+  color: #667eea;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  background: rgba(102, 126, 234, 0.05);
+  border: 1px solid rgba(102, 126, 234, 0.1);
+}
+
+.footer-contact-link:hover {
+  background: rgba(102, 126, 234, 0.1);
+  border-color: rgba(102, 126, 234, 0.2);
+  color: #5a6fd8;
+  transform: translateY(-1px);
+}
+
+.footer-contact-link:active {
+  transform: translateY(0);
+}
+
+/* Mobile Footer Styles */
+@media (max-width: 768px) {
+  .App-footer {
+    margin-top: 40px;
+    padding: 25px 15px;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .footer-left p {
+    font-size: 13px;
+  }
+  
+  .footer-contact-link {
+    font-size: 13px;
+    padding: 6px 12px;
   }
 }
