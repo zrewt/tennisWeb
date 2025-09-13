@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import DrillForm from './components/DrillForm';
 import DrillList from './components/DrillList';
 import DrillDetail from './components/DrillDetail';
+import PrivacyPolicy from './components/PrivacyPolicy';
 import { allDrills } from './data/drills';
 
 function App() {
@@ -127,57 +129,67 @@ function App() {
   };
 
   return (
-    <div className="App">
-      {notification.show && (
-        <div className="notification">
-          <div className="notification-content">
-            <span className="notification-icon">✓</span>
-            <span className="notification-message">{notification.message}</span>
+    <Router>
+      <div className="App">
+        {notification.show && (
+          <div className="notification">
+            <div className="notification-content">
+              <span className="notification-icon">✓</span>
+              <span className="notification-message">{notification.message}</span>
+            </div>
           </div>
-        </div>
-      )}
-      <header className="App-header">
-        <div className="header-content">
-          <div className="header-left"></div>
-          <div className="header-center">
-            <h1>
-              <a href="https://tempodrill.com" style={{ textDecoration: 'none', color: 'inherit' }}>
-                🎾 TempoDrill
-              </a>
-            </h1>
-            <p>Create your personalized practice plan</p>
-          </div>
-          <div className="header-right"></div>
-        </div>
-      </header>
-      
-      <main className="App-main">
-        {!showResults ? (
-          <DrillForm onGenerate={generateDrills} />
-        ) : selectedDrill ? (
-          <DrillDetail drill={selectedDrill} onBack={handleBackToList} />
-        ) : (
-          <DrillList 
-            drills={drills} 
-            onGenerateNew={generateNewPlan} 
-            onDrillSelect={handleDrillSelect}
-          />
         )}
-      </main>
-      
-      <footer className="App-footer">
-        <div className="footer-content">
-          <div className="footer-left">
-            <p>&copy; 2024 TempoDrill. All rights reserved.</p>
+        <header className="App-header">
+          <div className="header-content">
+            <div className="header-left"></div>
+            <div className="header-center">
+              <h1>
+                <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                  🎾 TempoDrill
+                </Link>
+              </h1>
+              <p>Create your personalized practice plan</p>
+            </div>
+            <div className="header-right"></div>
           </div>
-          <div className="footer-right">
-            <a href="#" className="footer-contact-link" onClick={handleContactClick}>
-              Contact Us
-            </a>
+        </header>
+        
+        <main className="App-main">
+          <Routes>
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/" element={
+              !showResults ? (
+                <DrillForm onGenerate={generateDrills} />
+              ) : selectedDrill ? (
+                <DrillDetail drill={selectedDrill} onBack={handleBackToList} />
+              ) : (
+                <DrillList 
+                  drills={drills} 
+                  onGenerateNew={generateNewPlan} 
+                  onDrillSelect={handleDrillSelect}
+                />
+              )
+            } />
+          </Routes>
+        </main>
+        
+        <footer className="App-footer">
+          <div className="footer-content">
+            <div className="footer-left">
+              <p>&copy; 2024 TempoDrill. All rights reserved.</p>
+            </div>
+            <div className="footer-right">
+              <Link to="/privacy-policy" className="footer-privacy-link">
+                Privacy Policy
+              </Link>
+              <a href="#" className="footer-contact-link" onClick={handleContactClick}>
+                Contact Us
+              </a>
+            </div>
           </div>
-        </div>
-      </footer>
-    </div>
+        </footer>
+      </div>
+    </Router>
   );
 }
 

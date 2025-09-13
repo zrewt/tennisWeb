@@ -223,6 +223,30 @@
   transform: translateY(0);
 }
 
+.footer-privacy-link {
+  color: #667eea;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  background: rgba(102, 126, 234, 0.05);
+  border: 1px solid rgba(102, 126, 234, 0.1);
+  margin-right: 10px;
+}
+
+.footer-privacy-link:hover {
+  background: rgba(102, 126, 234, 0.1);
+  border-color: rgba(102, 126, 234, 0.2);
+  color: #5a6fd8;
+  transform: translateY(-1px);
+}
+
+.footer-privacy-link:active {
+  transform: translateY(0);
+}
+
 /* Mobile Footer Styles */
 @media (max-width: 768px) {
   .App-footer {
@@ -243,5 +267,11 @@
   .footer-contact-link {
     font-size: 13px;
     padding: 6px 12px;
+  }
+  
+  .footer-privacy-link {
+    font-size: 13px;
+    padding: 6px 12px;
+    margin-right: 8px;
   }
 }
