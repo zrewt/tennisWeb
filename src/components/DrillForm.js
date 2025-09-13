@@ -112,6 +112,10 @@ const DrillForm = ({ onGenerate }) => {
           Generate Practice Plan
         </button>
       </form>
+      
+      <div className="form-footer">
+        <p>Want to see what a practice plan looks like? <a href="/plan" className="preview-link">View Sample Plan</a></p>
+      </div>
     </div>
   );
 };
