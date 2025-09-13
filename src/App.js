@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
 import './App.css';
 import DrillForm from './components/DrillForm';
 import DrillList from './components/DrillList';
@@ -7,11 +7,11 @@ import DrillDetail from './components/DrillDetail';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import { allDrills } from './data/drills';
 
-function App() {
+function AppContent() {
   const [drills, setDrills] = useState([]);
-  const [showResults, setShowResults] = useState(false);
   const [selectedDrill, setSelectedDrill] = useState(null);
   const [notification, setNotification] = useState({ show: false, message: '' });
+  const navigate = useNavigate();
 
   const generateDrills = (formData) => {
     const { skillLevel, equipment, timeAvailable } = formData;
@@ -25,8 +25,8 @@ function App() {
 
     if (filteredDrills.length === 0) {
       setDrills([]);
-      setShowResults(true);
       setSelectedDrill(null);
+      navigate('/plan');
       return;
     }
 
@@ -85,14 +85,14 @@ function App() {
     }
     
     setDrills(bestCombination);
-    setShowResults(true);
     setSelectedDrill(null);
+    navigate('/plan');
   };
 
   const generateNewPlan = () => {
-    setShowResults(false);
     setDrills([]);
     setSelectedDrill(null);
+    navigate('/');
   };
 
   const handleDrillSelect = (drill) => {
@@ -129,8 +129,7 @@ function App() {
   };
 
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
         {notification.show && (
           <div className="notification">
             <div className="notification-content">
@@ -157,10 +156,8 @@ function App() {
         <main className="App-main">
           <Routes>
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="/" element={
-              !showResults ? (
-                <DrillForm onGenerate={generateDrills} />
-              ) : selectedDrill ? (
+            <Route path="/plan" element={
+              selectedDrill ? (
                 <DrillDetail drill={selectedDrill} onBack={handleBackToList} />
               ) : (
                 <DrillList 
@@ -170,6 +167,7 @@ function App() {
                 />
               )
             } />
+            <Route path="/" element={<DrillForm onGenerate={generateDrills} />} />
           </Routes>
         </main>
         
@@ -189,6 +187,13 @@ function App() {
           </div>
         </footer>
       </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <AppContent />
     </Router>
   );
 }
