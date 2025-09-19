@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
-import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 import './App.css';
 import DrillForm from './components/DrillForm';
 import DrillList from './components/DrillList';
@@ -197,7 +197,7 @@ function App() {
   return (
     <Router>
       <AppContent />
-      <SpeedInsights />
+      <Analytics />
     </Router>
   );
 }
