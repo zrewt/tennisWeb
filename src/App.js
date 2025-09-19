@@ -5,6 +5,7 @@ import DrillForm from './components/DrillForm';
 import DrillList from './components/DrillList';
 import DrillDetail from './components/DrillDetail';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import Basics from './components/Basics';
 import { allDrills } from './data/drills';
 
 function AppContent() {
@@ -156,6 +157,7 @@ function AppContent() {
         <main className="App-main">
           <Routes>
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/basics" element={<Basics />} />
             <Route path="/plan" element={
               selectedDrill ? (
                 <DrillDetail drill={selectedDrill} onBack={handleBackToList} />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import DrillCard from './DrillCard';
 import './DrillList.css';
 
@@ -7,6 +8,10 @@ const DrillList = ({ drills, onGenerateNew, onDrillSelect }) => {
 
   return (
     <div className="drill-list-container">
+      <Link to="/basics" className="basics-btn-floating">
+        Basics
+      </Link>
+      
       <div className="drill-list-header">
         <h2>Your Personalized Practice Plan</h2>
         <p className="total-time">Total Time: {totalTime} minutes</p>

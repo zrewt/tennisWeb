@@ -719,5 +719,173 @@ export const beginnerDrills = [
       "Practice in tennis shoes if possible",
       "Get familiar with court dimensions"
     ]
+  },
+  {
+    id: 81,
+    title: "Ball Bounce and Catch",
+    description: "Practice bouncing the ball with your racket to improve hand-eye coordination.",
+    timeRequired: 10,
+    skillLevel: ["beginner"],
+    equipment: ["none"],
+    icon: "🎾",
+    instructions: [
+      "Stand in a comfortable position with your racket",
+      "Practice bouncing the ball up and down with your racket",
+      "Start with gentle bounces at waist height",
+      "Try to keep the ball bouncing for 10 consecutive hits",
+      "Practice bouncing with both sides of the racket",
+      "Work on controlling the bounce height"
+    ],
+    tips: [
+      "Keep your eye on the ball at all times",
+      "Stay relaxed and don't grip the racket too tightly",
+      "Start with slow, controlled movements",
+      "Practice in a safe area with plenty of space",
+      "Don't worry about perfect form initially"
+    ]
+  },
+  {
+    id: 82,
+    title: "Racket Balance Practice",
+    description: "Learn to balance the racket and develop feel for the racket head.",
+    timeRequired: 10,
+    skillLevel: ["beginner"],
+    equipment: ["none"],
+    icon: "⚖️",
+    instructions: [
+      "Hold your racket in your dominant hand",
+      "Practice balancing the racket on your palm",
+      "Try to keep the racket balanced for 10 seconds",
+      "Practice switching the racket between hands",
+      "Work on feeling the weight and balance of the racket",
+      "Practice holding the racket in different positions"
+    ],
+    tips: [
+      "Keep your wrist relaxed and flexible",
+      "Don't grip the racket too tightly",
+      "Focus on feeling the racket's weight",
+      "Practice in a safe area",
+      "Take your time to get comfortable"
+    ]
+  },
+  {
+    id: 83,
+    title: "Simple Target Practice",
+    description: "Practice hitting targets on the ground to improve accuracy and control.",
+    timeRequired: 15,
+    skillLevel: ["beginner"],
+    equipment: ["none"],
+    icon: "🎯",
+    instructions: [
+      "Place targets (cones, markers, or chalk circles) on the ground",
+      "Stand 5-10 feet away from the targets",
+      "Practice rolling the ball to hit the targets",
+      "Start with large targets and work toward smaller ones",
+      "Practice with both forehand and backhand rolls",
+      "Work on accuracy and consistency"
+    ],
+    tips: [
+      "Start with large, easy targets",
+      "Focus on accuracy over speed",
+      "Keep your eye on the target",
+      "Use gentle, controlled movements",
+      "Practice both sides equally"
+    ]
+  },
+  {
+    id: 84,
+    title: "Partner Ball Toss",
+    description: "Practice tossing and catching balls with a partner to improve coordination.",
+    timeRequired: 15,
+    skillLevel: ["beginner"],
+    equipment: ["partner"],
+    icon: "🤝",
+    instructions: [
+      "Stand 10-15 feet apart from your partner",
+      "Practice tossing the ball back and forth",
+      "Start with gentle underhand tosses",
+      "Work on catching the ball with both hands",
+      "Practice tossing to different heights",
+      "Gradually increase the distance between you"
+    ],
+    tips: [
+      "Start close together and gradually increase distance",
+      "Focus on gentle, accurate tosses",
+      "Keep your eye on the ball",
+      "Use both hands to catch initially",
+      "Have fun and stay relaxed"
+    ]
+  },
+  {
+    id: 85,
+    title: "Basic Ready Position",
+    description: "Learn and practice the basic ready position for tennis.",
+    timeRequired: 10,
+    skillLevel: ["beginner"],
+    equipment: ["none"],
+    icon: "🦵",
+    instructions: [
+      "Stand with feet shoulder-width apart",
+      "Bend your knees slightly",
+      "Hold your racket in front of you with both hands",
+      "Keep your weight on the balls of your feet",
+      "Practice moving from ready position",
+      "Work on staying balanced and ready"
+    ],
+    tips: [
+      "Keep your knees slightly bent",
+      "Stay on the balls of your feet",
+      "Hold the racket comfortably in front",
+      "Stay relaxed and balanced",
+      "Practice this position regularly"
+    ]
+  },
+  {
+    id: 86,
+    title: "Ball Rolling Practice",
+    description: "Practice rolling the ball with your racket to develop touch and control.",
+    timeRequired: 10,
+    skillLevel: ["beginner"],
+    equipment: ["none"],
+    icon: "🔄",
+    instructions: [
+      "Place the ball on the ground in front of you",
+      "Practice rolling the ball back and forth with your racket",
+      "Start with gentle, controlled movements",
+      "Work on keeping the ball moving smoothly",
+      "Practice rolling in different directions",
+      "Try to keep the ball rolling for 30 seconds"
+    ],
+    tips: [
+      "Use gentle, controlled movements",
+      "Keep your eye on the ball",
+      "Stay relaxed and don't grip too tightly",
+      "Practice in a safe area",
+      "Focus on smooth, consistent movement"
+    ]
+  },
+  {
+    id: 87,
+    title: "Simple Rally with Coach",
+    description: "Practice basic rallies with a coach or experienced player for guidance.",
+    timeRequired: 20,
+    skillLevel: ["beginner"],
+    equipment: ["partner"],
+    icon: "👨‍🏫",
+    instructions: [
+      "Stand across from your coach or partner",
+      "Start with gentle ball feeds from your partner",
+      "Practice making contact with the ball",
+      "Focus on getting the ball back over the net",
+      "Work on basic forehand and backhand strokes",
+      "Practice keeping the ball in play"
+    ],
+    tips: [
+      "Don't worry about perfect technique initially",
+      "Focus on making contact with the ball",
+      "Keep your eye on the ball",
+      "Stay relaxed and have fun",
+      "Ask for feedback and guidance"
+    ]
   }
 ];

@@ -863,5 +863,173 @@ export const intermediateDrills = [
       "Stay low and bend your knees",
       "Use slice for variety and defense"
     ]
+  },
+  {
+    id: 78,
+    title: "Cross-Court to Down-the-Line Switch",
+    description: "Practice changing direction from cross-court to down-the-line shots for tactical advantage.",
+    timeRequired: 25,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "📐",
+    instructions: [
+      "Start with cross-court rallies for 5 minutes",
+      "Practice changing direction to down-the-line",
+      "Focus on proper footwork and positioning",
+      "Work on disguise and shot selection",
+      "Practice both forehand and backhand direction changes",
+      "Work on recovery after direction changes"
+    ],
+    tips: [
+      "Disguise your direction change intention",
+      "Use proper footwork to get in position",
+      "Keep your eye on the ball through contact",
+      "Recover quickly after changing direction",
+      "Practice both sides equally"
+    ]
+  },
+  {
+    id: 79,
+    title: "Approach Shot and Volley Combo",
+    description: "Practice the complete approach shot and volley sequence for net play mastery.",
+    timeRequired: 30,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "🏃",
+    instructions: [
+      "Practice hitting approach shots from the baseline",
+      "Move forward immediately after hitting approach shot",
+      "Work on first volley technique and placement",
+      "Practice approach shot and volley combinations",
+      "Focus on proper positioning and movement",
+      "Work on finishing points at the net"
+    ],
+    tips: [
+      "Hit approach shots deep to the corners",
+      "Move forward aggressively after approach shots",
+      "Stay on the balls of your feet at the net",
+      "Use your legs for power and stability",
+      "Practice both forehand and backhand approaches"
+    ]
+  },
+  {
+    id: 80,
+    title: "Defensive to Offensive Transition",
+    description: "Practice transitioning from defensive positions to offensive opportunities.",
+    timeRequired: 25,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "🔄",
+    instructions: [
+      "Start in defensive positions (behind baseline)",
+      "Practice defensive shots (lobs, high balls)",
+      "Work on recognizing offensive opportunities",
+      "Practice transitioning to offensive shots",
+      "Focus on court positioning and movement",
+      "Work on shot selection and timing"
+    ],
+    tips: [
+      "Stay patient and wait for opportunities",
+      "Use defensive shots to buy time",
+      "Recognize when to go on the offensive",
+      "Stay balanced and ready to move",
+      "Practice both forehand and backhand transitions"
+    ]
+  },
+  {
+    id: 81,
+    title: "Serve Placement Practice",
+    description: "Practice serving to specific targets and court positions for tactical advantage.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "🎯",
+    instructions: [
+      "Practice serving to different court positions",
+      "Work on wide serves, body serves, and T serves",
+      "Focus on first serve placement and power",
+      "Practice second serve placement and spin",
+      "Work on serving to opponent's weaknesses",
+      "Practice serve and return combinations"
+    ],
+    tips: [
+      "Use different serve types for variety",
+      "Focus on placement over power initially",
+      "Practice both deuce and ad court serves",
+      "Work on disguise and consistency",
+      "Practice serving to different targets"
+    ]
+  },
+  {
+    id: 82,
+    title: "Rally Depth Control",
+    description: "Practice controlling the depth of your shots to create tactical advantages.",
+    timeRequired: 20,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "📏",
+    instructions: [
+      "Practice hitting deep shots to push opponent back",
+      "Work on short shots to bring opponent forward",
+      "Focus on depth variation and placement",
+      "Practice depth control from different positions",
+      "Work on depth control under pressure",
+      "Practice depth control combinations"
+    ],
+    tips: [
+      "Use depth to control the point",
+      "Practice both deep and short shots",
+      "Focus on consistent depth control",
+      "Stay balanced and controlled",
+      "Practice from different court positions"
+    ]
+  },
+  {
+    id: 83,
+    title: "Net Play Positioning",
+    description: "Practice proper positioning and movement at the net for effective volleying.",
+    timeRequired: 25,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "📍",
+    instructions: [
+      "Practice proper net positioning and stance",
+      "Work on movement and footwork at the net",
+      "Focus on volley technique and placement",
+      "Practice overhead positioning and timing",
+      "Work on net play combinations",
+      "Practice recovery after net play"
+    ],
+    tips: [
+      "Stay on the balls of your feet at the net",
+      "Keep your racket head up and ready",
+      "Move forward to meet the ball",
+      "Use your legs for power and stability",
+      "Practice both offensive and defensive net play"
+    ]
+  },
+  {
+    id: 84,
+    title: "Mental Toughness Training",
+    description: "Practice maintaining focus and mental toughness during challenging situations.",
+    timeRequired: 30,
+    skillLevel: ["intermediate", "advanced"],
+    equipment: ["partner"],
+    icon: "🧠",
+    instructions: [
+      "Play practice points with specific pressure situations",
+      "Practice serving and returning under pressure",
+      "Work on handling difficult situations",
+      "Focus on mental toughness and focus",
+      "Practice different pressure scenarios",
+      "Work on staying calm under pressure"
+    ],
+    tips: [
+      "Stay focused on one point at a time",
+      "Use positive self-talk under pressure",
+      "Control your breathing during pressure",
+      "Focus on what you can control",
+      "Learn from pressure situations"
+    ]
   }
 ];
