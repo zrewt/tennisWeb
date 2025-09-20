@@ -180,6 +180,9 @@ function AppContent() {
               <p>&copy; 2024 TempoDrill. All rights reserved.</p>
             </div>
             <div className="footer-right">
+              <Link to="/basics" className="footer-basics-link">
+                Tennis Basics
+              </Link>
               <Link to="/privacy-policy" className="footer-privacy-link">
                 Privacy Policy
               </Link>

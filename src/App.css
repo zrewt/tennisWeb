@@ -42,40 +42,6 @@
   align-items: center;
 }
 
-.basics-btn-floating {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background: #f5f5f5;
-  color: #333;
-  text-decoration: none;
-  padding: 12px 20px;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 16px;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  border: 1px solid #e0e0e0;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 80px;
-  height: 44px;
-  z-index: 1000;
-}
-
-.basics-btn-floating:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-  background: #e8e8e8;
-  border-color: #d0d0d0;
-}
-
-.basics-btn-floating:active {
-  transform: translateY(0);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
 
 
 .notification {
@@ -187,14 +153,6 @@
     display: none;
   }
   
-  .basics-btn-floating {
-    top: 15px;
-    right: 15px;
-    padding: 10px 16px;
-    font-size: 14px;
-    min-width: 70px;
-    height: 40px;
-  }
   
   .App-header h1 {
     font-size: 28px;
@@ -271,6 +229,30 @@
   transform: translateY(0);
 }
 
+.footer-basics-link {
+  color: #667eea;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  background: rgba(102, 126, 234, 0.05);
+  border: 1px solid rgba(102, 126, 234, 0.1);
+  margin-right: 10px;
+}
+
+.footer-basics-link:hover {
+  background: rgba(102, 126, 234, 0.1);
+  border-color: rgba(102, 126, 234, 0.2);
+  color: #5a6fd8;
+  transform: translateY(-1px);
+}
+
+.footer-basics-link:active {
+  transform: translateY(0);
+}
+
 .footer-privacy-link {
   color: #667eea;
   text-decoration: none;
@@ -315,6 +297,12 @@
   .footer-contact-link {
     font-size: 13px;
     padding: 6px 12px;
+  }
+  
+  .footer-basics-link {
+    font-size: 13px;
+    padding: 6px 12px;
+    margin-right: 8px;
   }
   
   .footer-privacy-link {
