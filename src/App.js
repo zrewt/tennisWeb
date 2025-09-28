@@ -95,7 +95,7 @@ function AppContent() {
   const generateNewPlan = () => {
     setDrills([]);
     setSelectedDrill(null);
-    navigate('/home');
+    navigate('/');
   };
 
   const handleDrillSelect = (drill) => {
@@ -146,7 +146,7 @@ function AppContent() {
             <div className="header-left"></div>
             <div className="header-center">
               <h1>
-                <Link to="/home" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
                   🎾 TempoDrill
                 </Link>
               </h1>
@@ -158,7 +158,8 @@ function AppContent() {
         
         <main className="App-main">
           <Routes>
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/generate" element={<DrillForm onGenerate={generateDrills} />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/basics" element={<Basics />} />
             <Route path="/plan" element={
@@ -172,7 +173,6 @@ function AppContent() {
                 />
               )
             } />
-            <Route path="/" element={<DrillForm onGenerate={generateDrills} />} />
           </Routes>
         </main>
         

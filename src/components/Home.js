@@ -41,7 +41,7 @@ function Home() {
         </div>
         
         <div className="home-actions">
-          <Link to="/" className="generate-drills-btn">
+          <Link to="/generate" className="generate-drills-btn">
             Generate Drills
           </Link>
           <Link to="/basics" className="basics-link">
