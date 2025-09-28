@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
 import { Analytics } from "@vercel/analytics/react";
 import './App.css';
+import Home from './components/Home';
 import DrillForm from './components/DrillForm';
 import DrillList from './components/DrillList';
 import DrillDetail from './components/DrillDetail';
@@ -94,7 +95,7 @@ function AppContent() {
   const generateNewPlan = () => {
     setDrills([]);
     setSelectedDrill(null);
-    navigate('/');
+    navigate('/home');
   };
 
   const handleDrillSelect = (drill) => {
@@ -145,7 +146,7 @@ function AppContent() {
             <div className="header-left"></div>
             <div className="header-center">
               <h1>
-                <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <Link to="/home" style={{ textDecoration: 'none', color: 'inherit' }}>
                   🎾 TempoDrill
                 </Link>
               </h1>
@@ -157,6 +158,7 @@ function AppContent() {
         
         <main className="App-main">
           <Routes>
+            <Route path="/home" element={<Home />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/basics" element={<Basics />} />
             <Route path="/plan" element={
