@@ -38,6 +38,12 @@ function Home() {
             <h3>Equipment Flexible</h3>
             <p>Works with whatever equipment you have available</p>
           </div>
+          
+          <div className="feature-card">
+            <div className="feature-icon">📚</div>
+            <h3>Learn the Basics</h3>
+            <p>Master fundamental techniques and court knowledge</p>
+          </div>
         </div>
         
         <div className="home-actions">
